@@ -1,0 +1,277 @@
+---
+title: "Slide 01: Data"
+author: "Richard Dien Giau Bui"
+format: revealjs
+editor: visual
+---
+
+## Load packages
+
+-   First, before a code session, think which packages you need to use today
+
+    -   Like before cooking, which knifes we should use
+
+-   Load it with `library(name_of_package)`:
+
+```{r}
+#| echo: true
+#| warning: false
+library(tidyverse)
+library(skimr)
+```
+
+## Code block
+
+-   Insert a new code block with **CTRL+ALT+I** then run with the green **RUN** button
+
+```{r}
+#| echo: true
+60 + 8
+```
+
+## Syntax of R language
+
+-   Like any language, R also has their own syntax:
+
+```{r}
+#| eval: false
+#| echo: true
+OUTPUT = FUNCTION(INPUT, OTHER_OPTIONS)
+```
+
+-   For example: we take function `sqrt` for number 4 (as input) and the results will be saved to new object `y` . How much is `y` ?
+
+```{r}
+y = sqrt(4)
+```
+
+## Comments in R
+
+-   Some notes to our codes
+
+-   Not run and just give information
+
+```{r}
+#| echo: true
+# two ways to take square of a number in R: 
+3*3 
+3^2
+```
+
+## Four main data types in R
+
+-   `numeric`: for example, counting, km, scores, money, ...
+
+-   `character`: for example, "Wednesday", "Today I failed the coding class", ...
+
+-   `factor`: e.g., a column with only 4 possible categories: A, B, C, D
+
+-   `date`: `2024-02-28`
+
+## Type 1. `numeric`
+
+-   Create a numeric variable
+
+```{r}
+#| echo: true
+x = c(1:10) # other way: x <- c(1:10)
+typeof(x)
+x = c(0.1, 0.4, 0.5)
+typeof(x)
+```
+
+-   Some math manipulation with numeric
+
+```{r}
+#| echo: true
+length(x)
+mean(x)
+median(x)
+min(x)
+max(x)
+```
+
+-   Quick way:
+
+```{r}
+#| echo: true
+#| eval: false
+skim(x)
+```
+
+## Type 2: `character`
+
+-   For text data
+
+-   Can't use with math calculation, for example, below code will raise error:
+
+```{r}
+#| echo: true
+#| eval: false
+"60" + "8"
+```
+
+-   Create text vector
+
+```{r}
+#| echo: true
+s = c("ann", "betty", "candy")
+```
+
+-   Some text manipulation with `stringr` package:
+
+```{r}
+#| echo: true
+length(s)
+str_length(s)
+str_to_upper(s)
+str_replace(string = s, pattern = "a", replacement = "$")
+paste0("student_", s)
+```
+
+## Type 3: `factor`
+
+-   Some category only, not continuous numeric variable
+
+-   For example:
+
+```{r}
+#| echo: true
+f1 = c(0, 1, 1, 0 ,1)
+f2 = c("Monday", "Tuesday", "Wednesday", "Tuesday", "Friday")
+```
+
+-   Sometimes, we need `factor` to do some special manipulation, e.g., plotting data by groups
+
+## Type 4: `date`
+
+-   Make date:
+
+```{r}
+#| echo: true
+d = c(20211231, 20221231, 20231231)
+typeof(d)
+```
+
+-   Convert `numeric` in yyyymmdd format to `date`:
+
+```{r}
+#| echo: true
+d = ymd(d)
+typeof(d)
+```
+
+## Missing data: `NA`
+
+-   Sometimes, we do not have data for some cases in the data
+
+-   In data science, people call it missing data
+
+-   In R, it is denoted as `NA` (pronounced as "Non-Applicable")
+
+## Vector vs dataframe
+
+-   Vector: One column of data
+
+    -   E.g., `x = c(5,7,9)` is a vector with three elements, where the first element can be index/choose by `x[1]`
+
+-   Dataframe: Many columns put together in the same table
+
+    -   A dataframe has rows/observations and columns/variables, such as `Data[rows, columns]`
+
+    -   To select first 5 rows rows: `Data[1:5,]`
+
+    -   To select column 2 and 3: `Data[,c(2,3)]`
+
+## Example
+
+```{r}
+#| echo: true
+mtcars[1:5, 1:4]
+mtcars[,1]
+mtcars[1,]
+```
+
+## Import data
+
+-   Raw data can be in many formats: the most common are
+
+    -   CSV or Excel
+
+    -   Other statistical software: Stata, SAS, SPSS, `parquet`
+
+    -   R native data: `rds`, `RData`
+
+    -   (SQL) Database
+
+-   We will learn first with simple CSV/Excel file. Then, I will introduce when and how to get data from SQL Database
+
+## Import data to be dataframe in R
+
+-   Use interactive import panel
+
+-   Use functions
+
+    -   Depending on data, we have corresponding functions
+
+    -   For example, `read_csv` to read CSV files to R, `read_excel` to read Excel files (we may need to load libraries to use these functions)
+
+## Example
+
+-   Read the file `hsb.csv` to R by two ways
+
+## Save dataframe from R to a file
+
+-   Save output dataframe from R to a file to use later
+-   Many possible file types: CSV, `rds`, `parquet`
+    -   E.g., `saveRDS(OUTPUT, "path_to_file.rds")`, `readr::write_csv(OUTPUT, "path_to_file.csv")`
+
+## Some tasks with the dataframe
+
+-   Make data smaller
+
+-   Make data larger
+
+-   Don't change the data size
+
+## Make data smaller
+
+| Function                   | When to use                         |
+|----------------------------|-------------------------------------|
+| `select`                   | Choose a few variables              |
+| `filter`                   | Choose few rows                     |
+| `group_by` and `summarize` | Summarize some statistics by groups |
+
+## Make data larger
+
+| Function | When to use |
+|----|----|
+| `mutate` | Create new variables |
+| `transmute` | Also create new variables, but keep only these new variables and drop all old variables |
+
+## Don't change the data size
+
+| Function  | When to use             |
+|-----------|-------------------------|
+| `arrange` | Sort data               |
+| `rename`  | To change variable name |
+
+## How to use a function?
+
+-   Google
+
+    -   ChatGPT
+
+-   Use `?` before the function name:
+
+```{r}
+#| echo: true
+#| eval: false
+?mutate
+```
+
+-   Practice makes perfect
+
+## Thank you
+
+We are ready to clean a data in the next slide.

@@ -1,0 +1,1001 @@
+Student ID,Drink Name,Size,Sugar %,Milk,Whip,Price($),Calories
+2001,Vanilla Latte,grande,0,2,0,$5.90,255 kcal
+2002,Cold Brew,grande,50,2,0,$5.65,105 kcal
+2003,Black Tea,grande,25,0,0,$4.75,35 kcal
+2004,Chai Tea,grande,100,4,0,$3.85,240 kcal
+2005,Matcha Latte,vendi,100,5,0,$4.20,305 kcal
+2006,Black Tea,grande,100,0,0,$4.89,45 kcal
+2007,Iced Matcha,grande,50,1,2,$5.76,260 kcal
+2008,Latte,tall,100,1,0,$5.29,150 kcal
+2009,Latte,short,75,1,0,$5.20,120 kcal
+2010,Iced Matcha,tall,75,3,0,$3.98,225 kcal
+2011,Cold Brew,tall,100,0,0,$5.37,80 kcal
+2012,Mocha,grande,100,0,1,$4.66,290 kcal
+2013,Cappuccino,venti,75,5,0,$4.44,205 kcal
+2014,Vanilla Latte,grande,100,1,0,$5.63,255 kcal
+2015,Matcha Latte,tall,100,5,0,$5.04,255 kcal
+2016,Iced Americano,venti,25,0,0,$5.78,110 kcal
+2017,Espresso,grande,75,0,0,$3.49,65 kcal
+2018,Espresso,short,25,0,0,$3.35,10 kcal
+2019,Black Tea,tall,50,4,0,$4.73,35 kcal
+2020,Matcha Latte,short,50,3,0,$5.14,225 kcal
+2021,White Mocha,tall,25,2,1,$3.96,350 kcal
+2022,Hot Chocolate,short,0,2,3,$3.98,275 kcal
+2023,Caramel Frappuccino,short,100,2,1,$5.23,300 kcal
+2024,Vanilla Latte,short,25,1,2,$4.39,200 kcal
+2025,Caramel Latte,short,0,5,3,$3.37,200 kcal
+2026,Vanilla Latte,grande,50,1,0,$4.90,245 kcal
+2027,Cold Brew,venti,50,0,0,$5.31,115 kcal
+2028,Strawberry Cream,tall,100,5,0,$4.75,370 kcal
+2029,Black Tea,grande,50,0,0,$3.72,45 kcal
+2030,Vanilla Latte,grande,0,4,0,$5.61,230 kcal
+2031,Espresso,short,0,0,0,$4.55,5 kcal
+2032,Strawberry Cream,grande,25,5,0,$4.93,385 kcal
+2033,Hot Chocolate,grande,25,5,0,$4.28,320 kcal
+2034,Caramel Frappuccino,tall,100,2,0,$5.45,320 kcal
+2035,Strawberry Cream,venti,25,5,0,$4.37,395 kcal
+2036,Cold Brew,grande,25,0,0,$4.01,100 kcal
+2037,Mocha,short,0,2,1,$2.87,235 kcal
+2038,Chai Tea,short,75,0,0,$4.07,210 kcal
+2039,Mocha,venti,100,2,1,$5.07,320 kcal
+2040,Espresso,grande,100,0,0,$3.89,65 kcal
+2041,Vanilla Latte,tall,100,1,0,$4.57,220 kcal
+2042,Cold Brew,grande,100,0,0,$4.94,105 kcal
+2043,Latte,grande,0,2,0,$4.62,160 kcal
+2044,Caramel Latte,tall,75,5,3,$4.26,185 kcal
+2045,Matcha Latte,grande,75,0,0,$5.19,295 kcal
+2046,Caramel Latte,short,50,1,0,$4.62,200 kcal
+2047,Hot Chocolate,grande,50,5,1,$5.02,320 kcal
+2048,Flat White,short,50,2,0,$4.40,155 kcal
+2049,Vanilla Latte,short,0,5,0,$3.50,185 kcal
+2050,Hazelnut Latte,venti,0,1,0,$3.82,285 kcal
+2051,Iced Americano,mini,75,0,0,$3.53,25 kcal
+2052,Flat White,grande,0,2,0,$5.60,235 kcal
+2053,Matcha Latte,mini,50,0,0,$5.67,270 kcal
+2054,Green Tea Lemonade,grande,100,0,0,$4.58,155 kcal
+2055,Caramel Frappuccino,short,75,2,1,$2.78,320 kcal
+2056,Iced Matcha,venti,100,3,0,$5.89,290 kcal
+2057,White Mocha,venti,50,4,1,$4.79,375 kcal
+2058,Iced Americano,grande,100,0,0,$4.36,65 kcal
+2059,Iced Matcha,tall,50,4,0,$4.74,235 kcal
+2060,White Mocha,grande,0,0,1,$5.24,360 kcal
+2061,Caramel Latte,grande,0,1,0,$3.85,235 kcal
+2062,Espresso,grande,50,0,0,$5.29,40 kcal
+2063,White Mocha,short,0,1,1,$4.19,315 kcal
+2064,Vanilla Latte,grande,25,1,0,$4.37,230 kcal
+2065,Matcha Latte,short,25,5,0,$4.84,225 kcal
+2066,Latte,grande,75,1,0,$5.51,175 kcal
+2067,Caramel Latte,mega,25,1,0,$5.61,185 kcal
+2068,Green Tea Lemonade,short,25,0,0,$2.94,85 kcal
+2069,Strawberry Cream,short,0,5,0,$2.77,350 kcal
+2070,Cold Brew,tall,75,2,0,$5.24,100 kcal
+2071,Americano,grande,50,4,0,$4.44,70 kcal
+2072,Matcha Latte,grande,25,3,0,$4.64,295 kcal
+2073,Strawberry Cream,tall,50,1,3,$4.51,335 kcal
+2074,Cold Brew,short,25,0,0,$4.81,80 kcal
+2075,Latte,grande,25,1,0,$3.51,160 kcal
+2076,Green Tea Lemonade,tall,0,0,0,$5.09,120 kcal
+2077,Cappuccino,grande,25,5,0,$5.64,180 kcal
+2078,Chai Tea,grande,50,3,0,$5.47,250 kcal
+2079,Caramel Latte,venti,25,0,0,$6.18,270 kcal
+2080,Matcha Latte,grande,75,3,0,$4.73,305 kcal
+2081,Chai Tea,tall,25,5,0,$4.48,230 kcal
+2082,Americano,short,75,0,0,$3.18,5 kcal
+2083,Matcha Latte,venti,100,3,0,$4.58,330 kcal
+2084,Flat White,short,100,2,0,$3.34,155 kcal
+2085,Cappuccino,short,0,1,0,$3.57,135 kcal
+2086,Espresso,grande,25,0,0,$4.72,55 kcal
+2087,Hot Chocolate,grande,0,1,1,$4.16,310 kcal
+2088,Matcha Latte,vendi,100,1,0,$3.91,310 kcal
+2089,Latte,short,100,1,3,$4.03,105 kcal
+2090,Chai Tea,tall,0,4,0,$4.10,250 kcal
+2091,Espresso,tall,25,3,0,$4.35,40 kcal
+2092,Strawberry Cream,tall,100,4,0,$4.87,345 kcal
+2093,Vanilla Latte,grande,100,5,0,$5.69,230 kcal
+2094,Iced Matcha,grande,25,3,0,$3.66,285 kcal
+2095,Caramel Frappuccino,grande,50,2,1,$4.74,365 kcal
+2096,Vanilla Latte,grande,50,1,0,$3.87,220 kcal
+2097,Cappuccino,grande,0,5,0,$4.05,185 kcal
+2098,Matcha Latte,short,25,3,0,$4.29,225 kcal
+2099,Chai Tea,tall,75,3,0,$5.01,250 kcal
+2100,Mocha,venti,100,2,1,$5.91,320 kcal
+2101,Cappuccino,tall,100,5,0,$3.78,170 kcal
+2102,Caramel Frappuccino,short,75,2,1,$3.01,300 kcal
+2103,Strawberry Cream,venti,100,0,0,$5.47,385 kcal
+2104,Flat White,venti,25,2,0,$4.32,235 kcal
+2105,Vanilla Latte,grande,100,1,0,$3.50,245 kcal
+2106,Matcha Latte,venti,50,3,0,$4.01,295 kcal
+2107,Vanilla Latte,short,25,1,0,$4.92,175 kcal
+2108,Iced Matcha,grande,75,3,0,$4.30,275 kcal
+2109,Caramel Latte,tall,50,1,0,$4.81,220 kcal
+2110,Caramel Frappuccino,tall,100,4,1,$5.19,340 kcal
+2111,Mocha,grande,0,5,1,$5.29,295 kcal
+2112,Mocha,short,75,2,3,$5.30,250 kcal
+2113,Cappuccino,mega,100,5,0,$3.80,180 kcal
+2114,Black Tea,grande,0,0,0,$3.60,35 kcal
+2115,Black Tea,tall,25,0,0,$5.25,35 kcal
+2116,Cappuccino,grande,0,5,0,$4.24,170 kcal
+2117,Americano,short,100,0,0,$4.34,25 kcal
+2118,Espresso,venti,100,0,0,$4.75,80 kcal
+2119,Black Tea,tall,100,0,0,$5.15,10 kcal
+2120,Vanilla Latte,tall,50,1,0,$5.36,210 kcal
+2121,Flat White,tall,75,2,0,$4.85,190 kcal
+2122,Chai Tea,tall,100,4,0,$3.55,250 kcal
+2123,Chai Tea,grande,50,4,0,$5.13,265 kcal
+2124,Hazelnut Latte,tall,25,1,0,$4.67,245 kcal
+2125,Chai Tea,grande,0,4,0,$4.48,255 kcal
+2126,Green Tea Lemonade,short,25,0,0,$3.75,110 kcal
+2127,Flat White,tall,0,5,0,$4.90,175 kcal
+2128,Iced Matcha,tall,25,3,0,$3.15,260 kcal
+2129,Iced Americano,mini,0,0,0,$4.13,60 kcal
+2130,Americano,grande,25,0,0,$4.21,70 kcal
+2131,Black Tea,tall,75,0,0,$5.35,10 kcal
+2132,Flat White,tall,100,2,0,$4.25,190 kcal
+2133,Flat White,venti,100,2,0,$5.60,225 kcal
+2134,Vanilla Latte,grande,75,1,0,$5.23,235 kcal
+2135,Caramel Frappuccino,short,100,4,1,$4.07,300 kcal
+2136,Cold Brew,grande,0,0,0,$3.52,125 kcal
+2137,Espresso,short,75,0,0,$4.42,5 kcal
+2138,Cold Brew,venti,100,0,0,$5.09,140 kcal
+2139,Green Tea Lemonade,grande,25,1,0,$6.04,120 kcal
+2140,White Mocha,short,75,3,0,$4.08,340 kcal
+2141,Vanilla Latte,grande,75,1,0,$4.37,230 kcal
+2142,Matcha Latte,grande,25,2,0,$5.31,280 kcal
+2143,Hazelnut Latte,grande,25,1,0,$4.75,235 kcal
+2144,Black Tea,tall,75,0,0,$4.68,10 kcal
+2145,Latte,mini,75,2,0,$3.77,130 kcal
+2146,Iced Matcha,grande,100,3,0,$5.23,265 kcal
+2147,Cappuccino,venti,25,5,0,$5.63,205 kcal
+2148,Hazelnut Latte,tall,75,1,0,$4.46,210 kcal
+2149,White Mocha,tall,50,3,1,$5.50,350 kcal
+2150,Hot Chocolate,grande,25,0,1,$4.19,320 kcal
+2151,Caramel Latte,tall,100,1,0,$3.65,210 kcal
+2152,Americano,tall,50,0,0,$4.52,55 kcal
+2153,Hot Chocolate,venti,0,0,1,$4.58,350 kcal
+2154,Latte,grande,75,1,0,$4.09,185 kcal
+2155,Caramel Latte,tall,25,1,0,$5.32,195 kcal
+2156,Chai Tea,short,25,4,0,$4.71,230 kcal
+2157,Cappuccino,grande,25,5,0,$5.84,170 kcal
+2158,Espresso,short,50,4,0,$4.55,5 kcal
+2159,Cold Brew,tall,75,0,0,$3.72,80 kcal
+2160,Hot Chocolate,tall,75,5,1,$5.33,300 kcal
+2161,Matcha Latte,venti,0,1,0,$5.40,320 kcal
+2162,Flat White,mini,100,2,0,$5.67,210 kcal
+2163,White Mocha,grande,25,2,0,$5.43,375 kcal
+2164,Iced Matcha,short,50,0,0,$3.91,220 kcal
+2165,Caramel Frappuccino,tall,50,2,1,$4.71,305 kcal
+2166,Espresso,grande,25,0,0,$3.54,50 kcal
+2167,Matcha Latte,tall,25,0,0,$5.48,280 kcal
+2168,Matcha Latte,grande,25,3,0,$5.81,305 kcal
+2169,Americano,tall,25,0,0,$4.21,35 kcal
+2170,White Mocha,grande,25,1,1,$5.88,350 kcal
+2171,Cappuccino,venti,50,2,0,$5.93,205 kcal
+2172,Strawberry Cream,tall,75,0,0,$5.54,360 kcal
+2173,Green Tea Lemonade,tall,25,0,0,$5.68,105 kcal
+2174,Hot Chocolate,tall,25,5,1,$4.04,310 kcal
+2175,Strawberry Cream,tall,25,5,2,$3.81,360 kcal
+2176,Cold Brew,grande,50,0,0,$5.44,100 kcal
+2177,Caramel Frappuccino,tall,75,2,1,$3.30,305 kcal
+2178,Iced Americano,venti,0,0,0,$4.58,100 kcal
+2179,Matcha Latte,tall,75,3,3,$3.39,280 kcal
+2180,Black Tea,grande,50,0,0,$5.43,50 kcal
+2181,Black Tea,tall,50,0,0,$5.58,10 kcal
+2182,Hot Chocolate,tall,0,4,1,$5.22,285 kcal
+2183,Cold Brew,tall,75,0,0,$4.87,80 kcal
+2184,Cold Brew,tall,50,5,0,$3.12,100 kcal
+2185,Cold Brew,grande,25,0,0,$4.90,90 kcal
+2186,Cappuccino,grande,50,5,0,$5.08,180 kcal
+2187,Iced Americano,tall,75,0,0,$4.50,40 kcal
+2188,Vanilla Latte,grande,0,1,0,$5.02,235 kcal
+2189,White Mocha,tall,75,2,0,$4.39,325 kcal
+2190,Green Tea Lemonade,tall,75,0,0,$5.19,130 kcal
+2191,Iced Matcha,tall,50,3,0,$3.94,225 kcal
+2192,Vanilla Latte,tall,25,1,0,$4.54,205 kcal
+2193,Caramel Frappuccino,tall,25,2,0,$4.70,315 kcal
+2194,Iced Matcha,grande,100,4,0,$4.98,285 kcal
+2195,Vanilla Latte,tall,50,1,0,$3.71,230 kcal
+2196,Americano,tall,25,5,0,$3.26,45 kcal
+2197,Americano,venti,75,0,0,$5.48,105 kcal
+2198,Latte,venti,25,1,0,$4.98,200 kcal
+2199,Black Tea,venti,25,0,0,$4.47,60 kcal
+2200,Espresso,tall,50,0,0,$4.62,30 kcal
+2201,Green Tea Lemonade,venti,75,5,0,$6.06,170 kcal
+2202,Cold Brew,tall,50,0,0,$3.66,65 kcal
+2203,Espresso,venti,50,0,0,$3.81,90 kcal
+2204,Black Tea,venti,75,0,0,$4.61,95 kcal
+2205,Americano,venti,100,3,0,$5.81,70 kcal
+2206,Iced Matcha,tall,25,3,0,$3.71,235 kcal
+2207,Latte,venti,75,1,0,$4.97,210 kcal
+2208,Flat White,grande,75,2,0,$5.13,225 kcal
+2209,Latte,venti,25,1,0,$6.09,185 kcal
+2210,Flat White,venti,50,2,0,$4.87,250 kcal
+2211,Caramel Frappuccino,grande,100,2,1,$4.69,355 kcal
+2212,Iced Matcha,grande,75,4,0,$5.68,260 kcal
+2213,Mocha,short,0,2,0,$3.03,260 kcal
+2214,Strawberry Cream,short,100,5,0,$4.57,340 kcal
+2215,Espresso,grande,25,0,0,$5.91,40 kcal
+2216,Americano,venti,50,0,2,$5.24,85 kcal
+2217,Cappuccino,grande,0,5,0,$3.69,185 kcal
+2218,Vanilla Latte,tall,25,3,0,$3.37,195 kcal
+2219,Cold Brew,grande,50,3,0,$3.94,115 kcal
+2220,Cappuccino,grande,75,5,0,$4.89,205 kcal
+2221,Hot Chocolate,grande,25,5,1,$5.79,345 kcal
+2222,Green Tea Lemonade,grande,0,0,0,$5.23,130 kcal
+2223,White Mocha,grande,75,0,1,$5.02,360 kcal
+2224,Caramel Latte,venti,0,1,0,$5.52,235 kcal
+2225,Vanilla Latte,tall,100,2,0,$4.76,220 kcal
+2226,Caramel Latte,venti,75,1,0,$5.62,245 kcal
+2227,White Mocha,short,100,5,1,$3.53,315 kcal
+2228,Flat White,tall,100,2,0,$3.39,190 kcal
+2229,Americano,tall,50,0,0,$4.99,30 kcal
+2230,White Mocha,venti,0,2,1,$4.51,375 kcal
+2231,Flat White,tall,0,2,0,$3.46,210 kcal
+2232,Iced Matcha,tall,75,1,0,$4.48,260 kcal
+2233,Espresso,grande,25,0,0,$3.59,65 kcal
+2234,Latte,mega,50,1,0,$4.03,135 kcal
+2235,Flat White,mini,50,3,0,$4.09,165 kcal
+2236,White Mocha,tall,75,2,0,$4.13,340 kcal
+2237,Espresso,venti,75,0,0,$5.98,100 kcal
+2238,Cold Brew,venti,50,0,0,$6.25,125 kcal
+2239,Iced Americano,short,100,0,0,$4.54,40 kcal
+2240,Latte,grande,50,5,0,$4.28,185 kcal
+2241,Latte,short,25,5,0,$3.45,120 kcal
+2242,Hazelnut Latte,grande,25,1,0,$5.38,245 kcal
+2243,Cold Brew,grande,100,0,0,$5.73,100 kcal
+2244,Hot Chocolate,tall,100,0,1,$3.36,320 kcal
+2245,Cappuccino,tall,25,5,0,$3.28,155 kcal
+2246,Hot Chocolate,mega,50,5,1,$4.72,345 kcal
+2247,Caramel Frappuccino,short,100,2,1,$4.19,295 kcal
+2248,Hazelnut Latte,short,50,1,0,$3.44,215 kcal
+2249,Caramel Frappuccino,grande,100,2,1,$4.88,330 kcal
+2250,Hazelnut Latte,short,0,1,0,$4.94,225 kcal
+2251,Latte,tall,0,1,0,$4.64,135 kcal
+2252,Latte,venti,25,1,0,$6.24,175 kcal
+2253,Mocha,venti,100,2,1,$4.72,340 kcal
+2254,White Mocha,venti,25,2,1,$3.93,410 kcal
+2255,Espresso,short,50,1,0,$4.72,5 kcal
+2256,Chai Tea,grande,100,4,0,$5.08,250 kcal
+2257,Cappuccino,tall,0,5,0,$5.46,145 kcal
+2258,Green Tea Lemonade,venti,75,0,0,$5.83,160 kcal
+2259,Hazelnut Latte,short,100,2,0,$4.62,225 kcal
+2260,Iced Americano,grande,0,0,0,$4.29,60 kcal
+2261,Iced Americano,short,25,1,0,$3.89,15 kcal
+2262,White Mocha,grande,50,2,1,$3.88,360 kcal
+2263,Cappuccino,venti,25,5,0,$4.07,195 kcal
+2264,Strawberry Cream,venti,50,5,0,$5.08,395 kcal
+2265,White Mocha,grande,50,2,0,$5.06,385 kcal
+2266,White Mocha,venti,75,2,1,$6.14,390 kcal
+2267,Matcha Latte,venti,100,3,0,$5.34,320 kcal
+2268,Caramel Frappuccino,venti,100,2,1,$6.30,355 kcal
+2269,Vanilla Latte,grande,25,0,0,$3.60,255 kcal
+2270,Matcha Latte,short,25,0,0,$3.07,225 kcal
+2271,Matcha Latte,grande,50,4,0,$4.19,270 kcal
+2272,Caramel Frappuccino,tall,75,2,1,$4.08,340 kcal
+2273,Flat White,grande,100,2,0,$5.12,210 kcal
+2274,Latte,short,50,0,0,$4.13,130 kcal
+2275,White Mocha,grande,75,2,1,$3.69,350 kcal
+2276,Caramel Latte,tall,0,1,0,$4.29,185 kcal
+2277,Americano,tall,75,0,3,$4.22,35 kcal
+2278,Iced Americano,grande,100,5,0,$4.77,75 kcal
+2279,White Mocha,grande,50,2,0,$4.38,365 kcal
+2280,Cold Brew,tall,100,0,0,$3.49,80 kcal
+2281,Black Tea,grande,25,2,0,$4.50,35 kcal
+2282,Latte,tall,0,1,0,$4.97,125 kcal
+2283,Americano,tall,100,0,0,$4.57,45 kcal
+2284,Iced Americano,grande,100,0,0,$4.86,85 kcal
+2285,Strawberry Cream,short,50,5,0,$4.45,315 kcal
+2286,Mocha,grande,50,2,1,$5.93,315 kcal
+2287,Americano,short,25,0,0,$3.88,35 kcal
+2288,Cold Brew,grande,100,3,0,$5.34,115 kcal
+2289,Caramel Latte,short,25,1,0,$4.55,200 kcal
+2290,Black Tea,tall,100,0,0,$3.48,20 kcal
+2291,Caramel Frappuccino,tall,100,5,0,$5.61,305 kcal
+2292,Green Tea Lemonade,tall,100,0,0,$4.51,110 kcal
+2293,White Mocha,grande,100,1,1,$5.58,365 kcal
+2294,Flat White,grande,0,2,0,$4.48,210 kcal
+2295,Flat White,tall,75,2,3,$3.98,185 kcal
+2296,Iced Americano,tall,0,0,0,$3.33,60 kcal
+2297,Chai Tea,tall,100,4,0,$4.12,240 kcal
+2298,Hot Chocolate,short,50,5,0,$3.98,290 kcal
+2299,Iced Americano,grande,50,0,0,$5.13,60 kcal
+2300,Espresso,grande,75,0,0,$3.47,75 kcal
+2301,Caramel Frappuccino,grande,100,2,1,$4.96,340 kcal
+2302,Flat White,short,75,4,0,$3.55,170 kcal
+2303,Americano,grande,100,5,0,$3.51,80 kcal
+2304,Caramel Frappuccino,grande,25,1,1,$3.61,340 kcal
+2305,Strawberry Cream,venti,75,5,0,$6.19,385 kcal
+2306,Cold Brew,tall,0,0,0,$4.91,100 kcal
+2307,Mocha,venti,25,2,1,$5.02,340 kcal
+2308,Cold Brew,grande,100,0,0,$4.29,100 kcal
+2309,White Mocha,grande,100,5,1,$4.14,350 kcal
+2310,Latte,venti,25,1,0,$4.68,175 kcal
+2311,Black Tea,tall,0,0,0,$4.85,45 kcal
+2312,Espresso,short,75,0,0,$2.87,10 kcal
+2313,Flat White,venti,50,2,0,$6.26,250 kcal
+2314,Matcha Latte,grande,100,3,0,$5.06,285 kcal
+2315,Chai Tea,grande,100,4,2,$4.58,275 kcal
+2316,Green Tea Lemonade,grande,75,5,0,$3.45,130 kcal
+2317,White Mocha,grande,50,2,1,$4.00,375 kcal
+2318,Cappuccino,tall,50,3,2,$5.24,170 kcal
+2319,Americano,grande,75,0,0,$3.58,60 kcal
+2320,Black Tea,short,100,0,0,$4.10,5 kcal
+2321,Hazelnut Latte,tall,0,1,0,$4.49,210 kcal
+2322,Strawberry Cream,venti,75,5,0,$4.95,400 kcal
+2323,Green Tea Lemonade,mega,0,0,0,$4.07,130 kcal
+2324,Americano,grande,0,2,0,$4.86,45 kcal
+2325,White Mocha,venti,25,2,0,$4.88,400 kcal
+2326,Hot Chocolate,mega,25,3,0,$5.39,320 kcal
+2327,Black Tea,tall,25,5,0,$5.31,20 kcal
+2328,Mocha,tall,100,1,1,$3.82,265 kcal
+2329,Hazelnut Latte,grande,50,1,3,$3.71,260 kcal
+2330,Matcha Latte,tall,75,3,0,$5.52,245 kcal
+2331,Black Tea,tall,100,0,0,$4.56,35 kcal
+2332,Green Tea Lemonade,venti,75,0,0,$5.55,155 kcal
+2333,Caramel Latte,short,75,1,0,$4.21,175 kcal
+2334,Hot Chocolate,tall,25,2,1,$3.28,295 kcal
+2335,Hot Chocolate,short,25,5,1,$2.85,265 kcal
+2336,Mocha,short,75,2,1,$3.27,245 kcal
+2337,Cappuccino,grande,0,5,0,$5.73,185 kcal
+2338,White Mocha,venti,50,2,1,$5.97,400 kcal
+2339,Caramel Frappuccino,venti,50,2,1,$5.40,355 kcal
+2340,Americano,venti,50,0,0,$5.16,85 kcal
+2341,Caramel Latte,venti,100,3,0,$6.12,235 kcal
+2342,Americano,venti,100,0,0,$4.35,80 kcal
+2343,Americano,venti,100,0,3,$5.74,80 kcal
+2344,Vanilla Latte,tall,25,0,0,$4.22,205 kcal
+2345,Hazelnut Latte,tall,25,1,0,$4.14,235 kcal
+2346,Matcha Latte,venti,0,3,0,$5.57,305 kcal
+2347,White Mocha,grande,100,4,0,$3.97,375 kcal
+2348,Black Tea,grande,25,5,0,$5.49,45 kcal
+2349,Hazelnut Latte,grande,100,2,0,$5.71,250 kcal
+2350,Hot Chocolate,grande,0,0,0,$5.24,335 kcal
+2351,Latte,tall,50,1,0,$4.49,150 kcal
+2352,Caramel Latte,tall,25,3,0,$5.61,185 kcal
+2353,Chai Tea,mega,75,2,0,$4.27,240 kcal
+2354,Matcha Latte,short,75,3,0,$2.91,235 kcal
+2355,Caramel Frappuccino,tall,100,2,1,$3.48,330 kcal
+2356,Americano,grande,75,0,0,$4.49,45 kcal
+2357,Vanilla Latte,grande,25,1,0,$5.63,255 kcal
+2358,Latte,venti,0,1,0,$4.26,185 kcal
+2359,Caramel Latte,grande,25,0,0,$5.36,220 kcal
+2360,Black Tea,venti,50,1,0,$5.13,75 kcal
+2361,White Mocha,tall,75,2,1,$3.21,360 kcal
+2362,Mocha,short,100,2,1,$4.70,250 kcal
+2363,Hot Chocolate,grande,50,4,1,$5.82,345 kcal
+2364,Latte,venti,25,1,0,$5.96,175 kcal
+2365,White Mocha,tall,75,4,2,$4.29,335 kcal
+2366,Green Tea Lemonade,tall,100,1,0,$5.30,130 kcal
+2367,Flat White,tall,50,2,0,$4.75,175 kcal
+2368,White Mocha,short,100,2,0,$4.50,315 kcal
+2369,Black Tea,tall,100,0,2,$5.15,10 kcal
+2370,Cold Brew,mega,50,0,0,$5.67,100 kcal
+2371,Caramel Frappuccino,grande,50,2,0,$4.75,365 kcal
+2372,Caramel Latte,short,25,3,0,$4.70,190 kcal
+2373,Flat White,short,0,4,0,$3.32,190 kcal
+2374,Hot Chocolate,tall,25,5,1,$5.21,300 kcal
+2375,Caramel Frappuccino,tall,0,2,1,$4.56,340 kcal
+2376,Vanilla Latte,tall,0,1,0,$3.83,230 kcal
+2377,Vanilla Latte,tall,75,3,0,$5.43,210 kcal
+2378,Iced Americano,grande,75,0,0,$3.91,50 kcal
+2379,Iced Matcha,tall,25,0,0,$4.85,250 kcal
+2380,Americano,tall,0,0,0,$4.36,30 kcal
+2381,Green Tea Lemonade,venti,50,2,0,$5.49,145 kcal
+2382,Iced Matcha,venti,25,0,0,$6.26,275 kcal
+2383,White Mocha,grande,50,2,1,$3.63,350 kcal
+2384,Mocha,tall,50,2,0,$3.68,280 kcal
+2385,Latte,tall,75,1,0,$5.22,160 kcal
+2386,Espresso,tall,50,0,0,$4.84,15 kcal
+2387,White Mocha,tall,75,2,1,$4.20,325 kcal
+2388,Caramel Latte,grande,25,3,0,$5.95,210 kcal
+2389,Hot Chocolate,short,75,5,1,$3.59,275 kcal
+2390,Iced Americano,tall,25,4,0,$4.43,35 kcal
+2391,Caramel Latte,short,0,1,0,$3.75,175 kcal
+2392,Americano,tall,100,0,0,$3.87,35 kcal
+2393,Chai Tea,grande,75,4,0,$4.72,240 kcal
+2394,Cold Brew,tall,100,0,0,$4.74,65 kcal
+2395,Latte,grande,25,2,0,$4.80,160 kcal
+2396,Latte,mega,50,1,0,$4.79,210 kcal
+2397,Hazelnut Latte,grande,25,1,0,$4.97,235 kcal
+2398,Vanilla Latte,grande,50,3,0,$4.09,220 kcal
+2399,Chai Tea,short,25,1,0,$5.07,195 kcal
+2400,White Mocha,grande,25,2,1,$5.71,350 kcal
+2401,Latte,grande,0,1,0,$4.06,160 kcal
+2402,Cappuccino,grande,25,5,0,$6.00,205 kcal
+2403,Cold Brew,tall,100,0,0,$4.18,90 kcal
+2404,Americano,tall,75,5,0,$4.47,45 kcal
+2405,Green Tea Lemonade,grande,0,0,0,$4.07,145 kcal
+2406,Cappuccino,tall,75,5,0,$4.71,145 kcal
+2407,Latte,venti,50,1,0,$5.19,200 kcal
+2408,Green Tea Lemonade,grande,0,0,0,$5.74,120 kcal
+2409,Flat White,tall,75,2,0,$5.66,175 kcal
+2410,Strawberry Cream,tall,0,5,0,$3.88,350 kcal
+2411,Hazelnut Latte,short,0,5,3,$5.19,205 kcal
+2412,Cold Brew,grande,50,5,0,$4.44,90 kcal
+2413,Hot Chocolate,short,75,5,1,$4.81,275 kcal
+2414,Iced Matcha,venti,75,2,0,$6.35,285 kcal
+2415,Americano,short,50,0,0,$5.23,25 kcal
+2416,Mocha,venti,0,2,0,$4.62,340 kcal
+2417,Mocha,venti,100,0,1,$5.11,315 kcal
+2418,Cappuccino,grande,25,5,0,$4.90,180 kcal
+2419,Mocha,tall,0,2,0,$5.60,290 kcal
+2420,Cappuccino,grande,50,5,3,$3.69,205 kcal
+2421,Hot Chocolate,tall,0,5,1,$3.26,310 kcal
+2422,Vanilla Latte,tall,0,1,0,$5.65,195 kcal
+2423,Matcha Latte,grande,100,3,0,$4.42,285 kcal
+2424,Caramel Latte,tall,100,3,0,$4.99,220 kcal
+2425,Vanilla Latte,grande,75,1,0,$4.46,245 kcal
+2426,Cold Brew,tall,25,0,0,$5.10,100 kcal
+2427,Hot Chocolate,grande,100,5,1,$5.02,345 kcal
+2428,Hazelnut Latte,tall,25,1,3,$3.40,210 kcal
+2429,Cappuccino,short,100,5,0,$4.40,160 kcal
+2430,Flat White,tall,0,2,0,$4.75,210 kcal
+2431,Vanilla Latte,grande,0,4,0,$5.67,230 kcal
+2432,White Mocha,grande,25,2,0,$5.12,375 kcal
+2433,Hot Chocolate,grande,100,5,1,$5.09,320 kcal
+2434,Strawberry Cream,short,50,5,0,$2.85,330 kcal
+2435,Espresso,grande,25,0,0,$5.26,65 kcal
+2436,Caramel Frappuccino,grande,100,0,0,$5.85,365 kcal
+2437,Cappuccino,short,0,5,0,$4.16,135 kcal
+2438,Cappuccino,venti,0,5,0,$5.50,230 kcal
+2439,Latte,grande,25,4,0,$3.83,160 kcal
+2440,Latte,venti,50,1,0,$4.78,175 kcal
+2441,Matcha Latte,mini,100,3,0,$4.49,270 kcal
+2442,Iced Matcha,grande,25,3,0,$6.05,265 kcal
+2443,Cappuccino,short,50,5,0,$4.53,135 kcal
+2444,Chai Tea,venti,50,4,0,$5.98,265 kcal
+2445,Latte,tall,50,1,0,$5.51,140 kcal
+2446,Flat White,tall,0,3,0,$5.18,185 kcal
+2447,Iced Americano,grande,50,0,0,$5.01,60 kcal
+2448,Green Tea Lemonade,tall,50,0,0,$3.82,120 kcal
+2449,White Mocha,short,0,3,0,$4.14,330 kcal
+2450,Americano,grande,0,0,0,$3.51,60 kcal
+2451,Mocha,tall,25,2,1,$5.60,290 kcal
+2452,Iced Americano,grande,25,0,0,$5.21,75 kcal
+2453,Espresso,venti,75,0,0,$5.71,75 kcal
+2454,White Mocha,short,75,2,1,$3.67,320 kcal
+2455,Flat White,grande,100,5,0,$4.40,235 kcal
+2456,Vanilla Latte,tall,100,2,0,$3.60,230 kcal
+2457,Caramel Latte,tall,50,2,0,$3.68,185 kcal
+2458,Latte,short,0,1,0,$3.84,115 kcal
+2459,Latte,grande,100,1,0,$4.43,160 kcal
+2460,White Mocha,grande,100,2,0,$5.26,375 kcal
+2461,Green Tea Lemonade,tall,25,0,0,$4.11,105 kcal
+2462,Latte,venti,0,1,0,$4.96,175 kcal
+2463,Latte,tall,50,1,0,$4.05,140 kcal
+2464,Caramel Frappuccino,tall,75,2,1,$3.78,305 kcal
+2465,Caramel Latte,tall,0,1,0,$5.31,195 kcal
+2466,Hot Chocolate,tall,25,5,1,$4.76,295 kcal
+2467,Iced Americano,tall,100,0,0,$4.63,60 kcal
+2468,Iced Americano,tall,100,5,0,$4.00,50 kcal
+2469,Latte,grande,50,3,0,$5.45,185 kcal
+2470,Caramel Frappuccino,tall,25,2,1,$4.39,340 kcal
+2471,Caramel Frappuccino,grande,25,5,1,$4.88,345 kcal
+2472,White Mocha,venti,100,2,0,$5.65,400 kcal
+2473,Caramel Latte,short,100,4,0,$5.27,190 kcal
+2474,Hot Chocolate,grande,50,5,0,$4.05,320 kcal
+2475,Caramel Latte,venti,0,0,0,$5.88,260 kcal
+2476,Mocha,tall,0,2,1,$3.74,270 kcal
+2477,Flat White,tall,25,2,0,$3.43,190 kcal
+2478,Cold Brew,grande,100,0,0,$3.49,115 kcal
+2479,White Mocha,venti,25,2,0,$4.94,385 kcal
+2480,Vanilla Latte,short,0,1,2,$4.72,175 kcal
+2481,Cold Brew,tall,75,0,0,$3.98,65 kcal
+2482,Mocha,grande,75,1,1,$4.22,290 kcal
+2483,Cappuccino,tall,50,0,0,$3.49,170 kcal
+2484,Mocha,tall,75,2,1,$5.05,255 kcal
+2485,Caramel Latte,short,100,1,0,$4.85,180 kcal
+2486,Flat White,short,75,2,0,$4.90,190 kcal
+2487,Espresso,short,25,0,0,$3.29,20 kcal
+2488,Matcha Latte,tall,0,3,0,$5.16,270 kcal
+2489,Cold Brew,grande,75,0,0,$3.80,125 kcal
+2490,Green Tea Lemonade,grande,25,0,0,$3.68,135 kcal
+2491,Black Tea,tall,75,0,0,$4.74,45 kcal
+2492,Mocha,tall,0,2,1,$3.58,255 kcal
+2493,Hot Chocolate,short,0,5,1,$3.44,300 kcal
+2494,Caramel Latte,grande,100,1,0,$3.80,220 kcal
+2495,Iced Americano,tall,25,0,0,$4.05,35 kcal
+2496,Strawberry Cream,grande,75,5,0,$3.95,395 kcal
+2497,Iced Americano,venti,50,5,0,$5.25,110 kcal
+2498,Americano,venti,25,1,0,$5.39,70 kcal
+2499,Caramel Latte,tall,25,5,0,$5.19,220 kcal
+2500,Hot Chocolate,mega,0,5,0,$4.24,335 kcal
+2501,White Mocha,tall,100,2,0,$3.43,340 kcal
+2502,Iced Americano,grande,0,0,0,$5.15,60 kcal
+2503,Black Tea,grande,75,4,0,$4.93,45 kcal
+2504,Hot Chocolate,tall,25,1,1,$5.23,295 kcal
+2505,Caramel Frappuccino,venti,50,2,0,$4.93,355 kcal
+2506,Americano,mega,25,0,0,$4.82,85 kcal
+2507,White Mocha,tall,100,2,0,$4.64,335 kcal
+2508,Americano,venti,50,0,0,$5.09,85 kcal
+2509,Caramel Latte,tall,0,1,0,$5.00,195 kcal
+2510,Espresso,grande,100,0,0,$3.46,40 kcal
+2511,Iced Americano,tall,100,5,0,$4.38,35 kcal
+2512,Iced Americano,venti,0,0,0,$4.29,85 kcal
+2513,Hazelnut Latte,grande,0,5,0,$4.71,260 kcal
+2514,Hazelnut Latte,venti,75,1,0,$5.03,295 kcal
+2515,Flat White,grande,0,1,0,$3.62,210 kcal
+2516,Flat White,grande,100,2,0,$4.47,235 kcal
+2517,Chai Tea,tall,25,4,0,$4.07,230 kcal
+2518,Cold Brew,grande,25,0,0,$3.51,105 kcal
+2519,Cold Brew,tall,25,0,0,$3.84,75 kcal
+2520,Vanilla Latte,venti,25,1,0,$5.50,245 kcal
+2521,White Mocha,grande,75,1,0,$5.96,350 kcal
+2522,Hazelnut Latte,short,0,2,0,$4.26,205 kcal
+2523,Iced Americano,tall,25,0,0,$5.04,40 kcal
+2524,Iced Americano,tall,50,0,0,$5.56,35 kcal
+2525,Americano,tall,75,0,0,$3.74,30 kcal
+2526,Caramel Frappuccino,tall,75,2,1,$4.56,315 kcal
+2527,Latte,short,0,1,0,$5.02,140 kcal
+2528,Vanilla Latte,short,100,1,0,$5.19,185 kcal
+2529,Mocha,grande,75,0,1,$5.50,305 kcal
+2530,Black Tea,venti,75,5,0,$5.58,60 kcal
+2531,Chai Tea,tall,0,4,0,$4.76,230 kcal
+2532,Cappuccino,grande,50,2,0,$5.26,185 kcal
+2533,Americano,grande,75,5,0,$4.90,55 kcal
+2534,Hot Chocolate,grande,0,2,0,$5.36,325 kcal
+2535,Caramel Frappuccino,tall,75,2,1,$5.38,330 kcal
+2536,Americano,tall,100,1,0,$4.67,45 kcal
+2537,Strawberry Cream,venti,0,5,0,$5.40,385 kcal
+2538,White Mocha,short,75,0,1,$4.32,320 kcal
+2539,Caramel Latte,short,0,1,0,$4.93,190 kcal
+2540,Hazelnut Latte,short,100,2,0,$5.11,190 kcal
+2541,Iced Matcha,grande,25,1,0,$4.74,250 kcal
+2542,Hot Chocolate,grande,50,1,1,$4.96,320 kcal
+2543,Matcha Latte,short,100,5,0,$3.11,260 kcal
+2544,Mocha,tall,100,2,1,$5.62,265 kcal
+2545,Green Tea Lemonade,tall,75,0,0,$4.32,110 kcal
+2546,Hazelnut Latte,tall,50,1,0,$5.38,225 kcal
+2547,Caramel Frappuccino,tall,75,2,1,$4.39,330 kcal
+2548,Strawberry Cream,tall,50,5,0,$4.15,370 kcal
+2549,Espresso,short,75,0,0,$5.25,20 kcal
+2550,Iced Americano,tall,100,0,0,$3.77,35 kcal
+2551,Vanilla Latte,grande,75,1,0,$5.90,245 kcal
+2552,Americano,tall,100,0,0,$3.71,30 kcal
+2553,Hot Chocolate,tall,0,5,2,$4.62,320 kcal
+2554,White Mocha,grande,75,2,0,$5.47,385 kcal
+2555,Iced Matcha,grande,100,3,0,$4.63,275 kcal
+2556,Green Tea Lemonade,grande,25,0,0,$5.07,135 kcal
+2557,Black Tea,tall,0,0,0,$4.37,20 kcal
+2558,Iced Americano,grande,75,0,0,$4.32,75 kcal
+2559,Caramel Latte,tall,25,3,0,$3.52,185 kcal
+2560,Caramel Latte,venti,100,0,0,$4.79,235 kcal
+2561,Hot Chocolate,short,50,5,1,$3.12,280 kcal
+2562,Strawberry Cream,venti,100,5,0,$3.93,395 kcal
+2563,Chai Tea,tall,25,4,0,$3.61,240 kcal
+2564,Cold Brew,tall,75,0,0,$5.65,100 kcal
+2565,Espresso,tall,75,0,0,$5.11,30 kcal
+2566,Vanilla Latte,tall,75,0,0,$5.24,210 kcal
+2567,Strawberry Cream,grande,75,5,0,$3.87,360 kcal
+2568,Hot Chocolate,grande,25,1,1,$5.37,335 kcal
+2569,Mocha,mini,50,1,1,$5.95,295 kcal
+2570,Espresso,tall,25,0,0,$4.75,40 kcal
+2571,Matcha Latte,tall,100,3,0,$4.28,270 kcal
+2572,Chai Tea,venti,100,1,0,$6.10,280 kcal
+2573,Hazelnut Latte,tall,75,1,0,$5.17,235 kcal
+2574,Espresso,tall,25,0,0,$4.97,50 kcal
+2575,Black Tea,grande,0,0,0,$4.19,35 kcal
+2576,Strawberry Cream,tall,100,4,0,$3.61,350 kcal
+2577,Strawberry Cream,tall,100,5,0,$4.54,350 kcal
+2578,Mocha,grande,25,2,0,$3.73,315 kcal
+2579,Espresso,short,25,0,0,$5.22,30 kcal
+2580,Cappuccino,grande,0,3,0,$5.22,170 kcal
+2581,Iced Americano,tall,100,0,0,$4.77,35 kcal
+2582,Cold Brew,venti,25,0,0,$6.29,125 kcal
+2583,Green Tea Lemonade,venti,25,0,0,$3.92,155 kcal
+2584,Strawberry Cream,tall,50,5,0,$4.04,350 kcal
+2585,Hot Chocolate,tall,25,5,0,$5.50,300 kcal
+2586,Iced Matcha,short,75,1,0,$4.26,205 kcal
+2587,Flat White,tall,0,2,0,$4.18,200 kcal
+2588,Latte,short,25,5,0,$3.97,115 kcal
+2589,Green Tea Lemonade,tall,25,0,3,$3.89,95 kcal
+2590,Mocha,grande,0,2,1,$3.85,290 kcal
+2591,Latte,tall,75,5,0,$3.22,125 kcal
+2592,Iced Americano,grande,25,0,0,$3.72,60 kcal
+2593,Chai Tea,short,50,4,0,$4.92,230 kcal
+2594,Matcha Latte,grande,100,3,2,$5.01,280 kcal
+2595,Cappuccino,short,0,5,0,$4.82,135 kcal
+2596,White Mocha,tall,100,2,1,$4.70,340 kcal
+2597,Americano,short,75,0,0,$4.94,15 kcal
+2598,Strawberry Cream,grande,75,5,0,$4.43,395 kcal
+2599,White Mocha,tall,0,2,0,$4.44,325 kcal
+2600,Vanilla Latte,tall,100,1,0,$4.26,205 kcal
+2601,Iced Americano,mini,50,4,0,$4.57,75 kcal
+2602,Strawberry Cream,venti,75,5,0,$5.06,400 kcal
+2603,Matcha Latte,grande,75,3,0,$4.03,280 kcal
+2604,Hot Chocolate,grande,75,4,0,$5.95,335 kcal
+2605,Hazelnut Latte,grande,100,4,0,$5.55,270 kcal
+2606,Mocha,grande,100,2,1,$4.36,305 kcal
+2607,Flat White,grande,50,1,0,$5.30,210 kcal
+2608,Hazelnut Latte,short,0,1,0,$4.03,215 kcal
+2609,Caramel Latte,grande,0,1,0,$3.95,220 kcal
+2610,Flat White,grande,100,2,0,$5.22,225 kcal
+2611,Iced Americano,short,50,0,0,$3.97,15 kcal
+2612,Iced Matcha,tall,50,3,0,$5.32,240 kcal
+2613,Mocha,tall,75,2,1,$4.90,255 kcal
+2614,Cappuccino,short,0,5,0,$4.40,125 kcal
+2615,Hazelnut Latte,mega,0,4,0,$3.54,190 kcal
+2616,Iced Matcha,grande,100,3,0,$5.06,250 kcal
+2617,Hot Chocolate,tall,25,3,1,$5.14,320 kcal
+2618,Mocha,grande,75,2,1,$4.50,290 kcal
+2619,Flat White,short,100,2,0,$3.31,180 kcal
+2620,Flat White,venti,100,0,0,$5.63,235 kcal
+2621,Espresso,grande,100,0,0,$4.14,55 kcal
+2622,Hazelnut Latte,short,0,1,0,$4.40,215 kcal
+2623,Caramel Frappuccino,venti,75,2,1,$4.23,365 kcal
+2624,Strawberry Cream,tall,25,5,0,$4.09,335 kcal
+2625,Cappuccino,short,75,4,0,$3.11,140 kcal
+2626,Iced Americano,tall,50,0,0,$3.34,35 kcal
+2627,Mocha,venti,75,2,1,$5.43,320 kcal
+2628,Iced Matcha,tall,0,3,0,$5.34,250 kcal
+2629,White Mocha,short,75,2,0,$2.97,315 kcal
+2630,Espresso,tall,0,0,0,$5.10,15 kcal
+2631,Caramel Latte,grande,100,1,0,$4.77,225 kcal
+2632,Vanilla Latte,grande,75,1,0,$4.94,235 kcal
+2633,Latte,venti,0,1,0,$5.62,185 kcal
+2634,Espresso,tall,100,0,0,$5.34,30 kcal
+2635,Matcha Latte,tall,0,3,0,$5.12,255 kcal
+2636,Latte,venti,75,1,0,$4.72,190 kcal
+2637,Mocha,grande,25,2,0,$3.96,305 kcal
+2638,Americano,grande,100,0,0,$3.78,55 kcal
+2639,Black Tea,grande,25,0,0,$4.09,70 kcal
+2640,Hot Chocolate,tall,50,5,1,$3.38,310 kcal
+2641,Iced Americano,grande,100,0,0,$4.60,85 kcal
+2642,Flat White,venti,25,2,0,$5.65,250 kcal
+2643,Americano,venti,25,0,0,$6.22,80 kcal
+2644,Iced Matcha,short,75,2,0,$3.68,230 kcal
+2645,Hot Chocolate,tall,75,5,1,$5.01,320 kcal
+2646,Strawberry Cream,tall,0,2,0,$5.01,370 kcal
+2647,Vanilla Latte,venti,50,1,0,$5.73,280 kcal
+2648,Iced Matcha,grande,0,3,0,$4.66,250 kcal
+2649,Iced Matcha,tall,25,2,0,$4.89,260 kcal
+2650,Iced Americano,grande,75,0,0,$4.79,85 kcal
+2651,Hot Chocolate,tall,25,5,0,$4.82,320 kcal
+2652,Cappuccino,venti,75,5,0,$4.37,205 kcal
+2653,Vanilla Latte,grande,25,4,0,$5.07,255 kcal
+2654,Caramel Frappuccino,grnade,75,2,1,$4.94,345 kcal
+2655,Flat White,tall,25,0,0,$3.87,175 kcal
+2656,Iced Matcha,venti,0,3,0,$5.19,285 kcal
+2657,Caramel Latte,tall,0,1,0,$3.25,185 kcal
+2658,Flat White,grande,0,2,0,$4.75,235 kcal
+2659,Caramel Latte,venti,50,1,0,$4.89,260 kcal
+2660,Cold Brew,tall,25,0,0,$4.80,75 kcal
+2661,Matcha Latte,grande,0,0,0,$5.55,285 kcal
+2662,Strawberry Cream,tall,100,5,0,$5.10,335 kcal
+2663,Flat White,grande,0,3,0,$3.62,215 kcal
+2664,Iced Matcha,tall,0,5,0,$5.58,235 kcal
+2665,Black Tea,short,100,0,0,$5.06,5 kcal
+2666,Green Tea Lemonade,venti,0,4,0,$6.16,170 kcal
+2667,Hazelnut Latte,tall,25,1,0,$3.19,210 kcal
+2668,Hot Chocolate,grande,75,5,1,$4.78,345 kcal
+2669,Flat White,tall,50,2,0,$3.69,185 kcal
+2670,Flat White,short,50,2,0,$3.04,165 kcal
+2671,Flat White,grande,25,2,3,$5.06,200 kcal
+2672,Espresso,venti,75,4,0,$6.08,100 kcal
+2673,Latte,grande,0,1,0,$5.18,165 kcal
+2674,Caramel Latte,grande,0,1,0,$5.61,210 kcal
+2675,Chai Tea,grande,75,4,0,$5.98,265 kcal
+2676,Caramel Latte,grande,50,1,0,$4.05,225 kcal
+2677,Green Tea Lemonade,grande,50,0,0,$5.69,130 kcal
+2678,Hot Chocolate,short,0,5,1,$3.17,265 kcal
+2679,Cappuccino,tall,75,5,0,$4.36,180 kcal
+2680,White Mocha,short,50,2,0,$3.71,315 kcal
+2681,Green Tea Lemonade,venti,25,0,0,$6.27,170 kcal
+2682,Strawberry Cream,grande,0,2,0,$5.41,385 kcal
+2683,Hazelnut Latte,tall,100,1,0,$4.09,220 kcal
+2684,Strawberry Cream,tall,0,5,0,$4.39,360 kcal
+2685,Green Tea Lemonade,tall,25,0,0,$4.75,110 kcal
+2686,Latte,grande,100,1,0,$5.95,175 kcal
+2687,Vanilla Latte,short,0,1,0,$4.31,185 kcal
+2688,Black Tea,short,0,0,0,$3.24,25 kcal
+2689,Vanilla Latte,tall,100,4,0,$5.57,205 kcal
+2690,Chai Tea,grande,50,2,0,$3.99,255 kcal
+2691,Mocha,tall,25,1,0,$5.01,265 kcal
+2692,Latte,short,75,2,0,$2.96,105 kcal
+2693,Vanilla Latte,tall,75,1,0,$4.32,195 kcal
+2694,Green Tea Lemonade,tall,25,0,0,$4.85,105 kcal
+2695,Green Tea Lemonade,mini,50,0,0,$3.49,110 kcal
+2696,Hazelnut Latte,grande,75,1,0,$4.36,260 kcal
+2697,Green Tea Lemonade,grande,75,0,0,$5.31,130 kcal
+2698,Iced Americano,venti,50,0,0,$6.34,90 kcal
+2699,Cappuccino,venti,25,5,0,$5.38,210 kcal
+2700,Cold Brew,grande,0,0,0,$4.49,115 kcal
+2701,Caramel Frappuccino,mini,0,2,0,$4.93,310 kcal
+2702,Caramel Frappuccino,grande,25,2,0,$3.83,365 kcal
+2703,Hazelnut Latte,grande,100,1,0,$5.79,245 kcal
+2704,Black Tea,tall,50,1,0,$3.91,25 kcal
+2705,Hazelnut Latte,short,25,1,0,$2.81,215 kcal
+2706,Americano,tall,0,0,0,$5.61,35 kcal
+2707,Cappuccino,tall,75,5,0,$4.72,155 kcal
+2708,Espresso,short,75,0,0,$4.30,20 kcal
+2709,Hazelnut Latte,short,25,1,0,$4.23,215 kcal
+2710,Latte,tall,100,0,2,$5.67,140 kcal
+2711,Iced Americano,short,50,5,0,$4.16,15 kcal
+2712,Latte,short,50,1,0,$3.99,115 kcal
+2713,White Mocha,grande,100,2,0,$5.34,350 kcal
+2714,Strawberry Cream,tall,75,1,0,$5.64,360 kcal
+2715,Caramel Frappuccino,venti,0,2,1,$5.04,355 kcal
+2716,Flat White,tall,75,2,0,$5.08,190 kcal
+2717,Iced Americano,venti,75,0,0,$5.34,75 kcal
+2718,Strawberry Cream,short,50,5,0,$4.38,330 kcal
+2719,Black Tea,grande,0,0,0,$5.28,60 kcal
+2720,Iced Americano,tall,75,1,0,$5.25,40 kcal
+2721,Mocha,grande,0,2,0,$4.91,290 kcal
+2722,Iced Americano,short,25,0,0,$2.83,20 kcal
+2723,Caramel Latte,venti,50,2,0,$5.46,260 kcal
+2724,Chai Tea,tall,25,4,0,$5.55,230 kcal
+2725,Caramel Latte,tall,75,4,0,$3.99,220 kcal
+2726,Iced Matcha,venti,0,3,0,$4.56,285 kcal
+2727,Caramel Frappuccino,tall,0,4,0,$4.76,340 kcal
+2728,Iced Americano,venti,0,0,0,$4.07,90 kcal
+2729,Latte,grande,50,4,0,$3.51,185 kcal
+2730,Iced Americano,grande,25,0,0,$3.88,65 kcal
+2731,Americano,grande,0,3,0,$5.36,55 kcal
+2732,Americano,venti,0,2,0,$4.37,85 kcal
+2733,Chai Tea,tall,0,4,0,$5.26,250 kcal
+2734,Latte,tall,75,1,0,$5.09,160 kcal
+2735,Iced Matcha,tall,50,3,0,$4.54,250 kcal
+2736,Caramel Latte,short,25,0,0,$3.17,190 kcal
+2737,Latte,tall,100,2,0,$4.34,160 kcal
+2738,White Mocha,grande,0,0,3,$5.13,350 kcal
+2739,Flat White,grande,25,2,0,$3.46,200 kcal
+2740,Latte,grande,25,1,0,$5.73,150 kcal
+2741,Strawberry Cream,venti,100,5,0,$4.71,385 kcal
+2742,Iced Americano,tall,100,3,0,$3.16,50 kcal
+2743,Strawberry Cream,short,0,5,0,$3.45,340 kcal
+2744,Caramel Frappuccino,tall,100,2,1,$4.13,315 kcal
+2745,Cold Brew,short,25,0,0,$3.97,70 kcal
+2746,Latte,grande,50,1,0,$4.36,175 kcal
+2747,Iced Matcha,tall,50,1,0,$4.83,235 kcal
+2748,Espresso,venti,0,0,0,$4.50,65 kcal
+2749,Flat White,tall,50,2,0,$5.11,210 kcal
+2750,Cappuccino,grande,25,5,0,$3.94,180 kcal
+2751,Strawberry Cream,grande,0,1,0,$3.65,375 kcal
+2752,Latte,venti,0,3,0,$5.38,200 kcal
+2753,Cappuccino,tall,25,5,0,$4.85,160 kcal
+2754,Vanilla Latte,tall,0,1,0,$4.69,230 kcal
+2755,Cold Brew,tall,100,0,0,$4.83,75 kcal
+2756,Iced Americano,grande,100,0,3,$4.20,60 kcal
+2757,Vanilla Latte,mini,75,2,0,$3.84,175 kcal
+2758,Espresso,mini,50,0,0,$4.94,80 kcal
+2759,Caramel Frappuccino,tall,0,2,1,$3.92,320 kcal
+2760,Flat White,tall,25,2,0,$4.65,185 kcal
+2761,Latte,grande,25,4,0,$5.69,165 kcal
+2762,Vanilla Latte,tall,75,1,0,$3.13,210 kcal
+2763,Mocha,tall,100,2,1,$5.01,255 kcal
+2764,Caramel Latte,tall,50,1,0,$4.17,210 kcal
+2765,Espresso,short,0,0,0,$5.25,10 kcal
+2766,Caramel Frappuccino,tall,0,2,1,$4.31,315 kcal
+2767,Strawberry Cream,short,50,5,0,$4.96,315 kcal
+2768,Green Tea Lemonade,grande,100,0,0,$5.23,145 kcal
+2769,Hazelnut Latte,tall,50,0,0,$5.44,235 kcal
+2770,Espresso,grande,25,0,0,$4.77,75 kcal
+2771,Iced Matcha,venti,0,2,0,$5.72,285 kcal
+2772,Hazelnut Latte,grande,25,5,2,$5.36,245 kcal
+2773,Hot Chocolate,grande,25,4,1,$4.80,345 kcal
+2774,Mocha,venti,0,0,0,$4.37,340 kcal
+2775,Espresso,grande,75,0,0,$3.55,75 kcal
+2776,Strawberry Cream,grande,25,5,0,$4.58,385 kcal
+2777,White Mocha,grande,0,2,1,$4.74,375 kcal
+2778,Caramel Latte,venti,0,1,0,$4.49,260 kcal
+2779,Black Tea,grande,0,0,0,$4.45,70 kcal
+2780,Americano,short,75,0,0,$3.39,5 kcal
+2781,Espresso,venti,100,0,0,$5.03,100 kcal
+2782,Iced Matcha,grande,0,3,0,$5.72,250 kcal
+2783,Vanilla Latte,short,25,1,0,$3.54,190 kcal
+2784,Strawberry Cream,tall,25,0,0,$3.48,345 kcal
+2785,Caramel Latte,tall,0,3,0,$4.61,195 kcal
+2786,White Mocha,venti,75,2,0,$4.57,400 kcal
+2787,Matcha Latte,grande,0,3,0,$5.87,270 kcal
+2788,Espresso,grande,50,3,0,$4.94,65 kcal
+2789,Matcha Latte,grande,75,2,0,$4.43,285 kcal
+2790,Iced Americano,grande,0,5,0,$4.81,60 kcal
+2791,Strawberry Cream,venti,100,5,0,$4.95,385 kcal
+2792,Chai Tea,grande,75,4,0,$4.98,265 kcal
+2793,Americano,short,25,1,0,$4.92,25 kcal
+2794,Hot Chocolate,venti,100,5,1,$5.18,335 kcal
+2795,Green Tea Lemonade,tall,50,0,0,$5.19,120 kcal
+2796,Iced Americano,tall,0,5,0,$3.68,40 kcal
+2797,Iced Matcha,venti,100,3,0,$5.00,275 kcal
+2798,Black Tea,grande,50,2,0,$3.62,50 kcal
+2799,Latte,grande,100,5,0,$3.71,150 kcal
+2800,Latte,venti,75,0,0,$4.39,175 kcal
+2801,Vanilla Latte,tall,25,1,0,$5.26,210 kcal
+2802,Strawberry Cream,tall,25,5,3,$5.10,345 kcal
+2803,Green Tea Lemonade,short,25,0,0,$4.30,85 kcal
+2804,Strawberry Cream,grande,100,4,0,$5.75,360 kcal
+2805,Hot Chocolate,grande,100,5,0,$5.84,325 kcal
+2806,Black Tea,short,75,0,0,$3.16,5 kcal
+2807,Hot Chocolate,grande,50,5,0,$5.31,335 kcal
+2808,White Mocha,grande,75,1,1,$5.66,375 kcal
+2809,Hazelnut Latte,short,100,0,0,$4.73,205 kcal
+2810,Iced Matcha,short,50,5,0,$3.94,215 kcal
+2811,Espresso,grande,25,0,0,$4.62,50 kcal
+2812,Espresso,tall,25,0,0,$4.59,15 kcal
+2813,Espresso,mini,100,0,0,$4.47,75 kcal
+2814,Espresso,tall,100,3,0,$4.62,30 kcal
+2815,Iced Matcha,venti,100,3,0,$3.80,275 kcal
+2816,Hazelnut Latte,grande,25,1,0,$6.00,270 kcal
+2817,Iced Americano,tall,100,0,0,$4.69,60 kcal
+2818,Iced Matcha,tall,25,3,0,$5.54,260 kcal
+2819,Black Tea,venti,100,0,0,$4.77,60 kcal
+2820,Espresso,grande,100,3,0,$5.38,75 kcal
+2821,Latte,grande,100,3,0,$4.61,175 kcal
+2822,Iced Matcha,grande,0,3,0,$4.13,265 kcal
+2823,Chai Tea,grande,75,4,0,$5.27,265 kcal
+2824,Strawberry Cream,grande,75,1,0,$3.56,385 kcal
+2825,Cappuccino,grande,50,5,0,$3.60,180 kcal
+2826,Caramel Latte,short,0,3,0,$3.56,200 kcal
+2827,Cold Brew,grande,25,0,0,$4.86,125 kcal
+2828,Hot Chocolate,short,50,5,1,$2.86,275 kcal
+2829,Vanilla Latte,tall,75,1,0,$5.23,195 kcal
+2830,Caramel Frappuccino,tall,100,0,0,$4.62,320 kcal
+2831,Iced Americano,tall,25,0,0,$3.53,50 kcal
+2832,Iced Americano,venti,50,0,0,$3.85,100 kcal
+2833,Chai Tea,tall,25,4,0,$3.18,225 kcal
+2834,Mocha,grande,100,2,1,$3.77,305 kcal
+2835,Black Tea,tall,25,4,0,$4.75,35 kcal
+2836,Iced Matcha,short,0,3,0,$4.07,205 kcal
+2837,Hot Chocolate,short,50,5,0,$4.35,290 kcal
+2838,Cold Brew,tall,50,0,0,$3.43,75 kcal
+2839,Strawberry Cream,venti,75,5,0,$6.39,420 kcal
+2840,Flat White,tall,0,2,0,$4.68,175 kcal
+2841,Flat White,grande,75,2,0,$4.58,200 kcal
+2842,Mocha,short,75,3,0,$3.98,270 kcal
+2843,Green Tea Lemonade,short,50,0,0,$4.18,85 kcal
+2844,Hazelnut Latte,venti,25,1,0,$4.20,260 kcal
+2845,Latte,tall,75,1,0,$4.38,150 kcal
+2846,Americano,short,50,0,0,$3.08,35 kcal
+2847,Cold Brew,grande,0,0,0,$5.78,90 kcal
+2848,Cappuccino,grande,75,5,0,$3.77,170 kcal
+2849,Cold Brew,grande,25,0,0,$5.35,100 kcal
+2850,Latte,short,0,1,0,$3.73,120 kcal
+2851,Caramel Frappuccino,tall,50,3,1,$4.90,315 kcal
+2852,Cappuccino,short,25,5,0,$4.13,135 kcal
+2853,Americano,tall,50,0,0,$5.19,55 kcal
+2854,Iced Matcha,grande,75,0,0,$4.25,265 kcal
+2855,Iced Americano,tall,75,0,0,$4.33,25 kcal
+2856,Mocha,venti,75,2,0,$4.85,320 kcal
+2857,Iced Matcha,tall,25,3,0,$5.64,250 kcal
+2858,Black Tea,venti,75,0,0,$5.68,75 kcal
+2859,Espresso,tall,50,0,0,$3.51,30 kcal
+2860,Vanilla Latte,tall,0,1,0,$3.30,220 kcal
+2861,Cold Brew,short,75,1,0,$3.93,60 kcal
+2862,Hazelnut Latte,venti,75,1,3,$4.73,285 kcal
+2863,Cappuccino,venti,100,2,0,$6.18,220 kcal
+2864,Strawberry Cream,grande,75,5,0,$3.78,385 kcal
+2865,Mocha,tall,50,5,0,$4.17,265 kcal
+2866,Espresso,grande,25,0,0,$5.02,65 kcal
+2867,Strawberry Cream,mega,25,5,0,$4.45,375 kcal
+2868,Black Tea,tall,50,0,0,$4.57,45 kcal
+2869,Hazelnut Latte,venti,50,1,0,$4.56,285 kcal
+2870,White Mocha,short,50,2,1,$5.05,330 kcal
+2871,Iced Matcha,short,75,3,0,$3.11,220 kcal
+2872,Caramel Frappuccino,tall,75,2,0,$3.46,320 kcal
+2873,Strawberry Cream,venti,0,5,0,$5.26,400 kcal
+2874,Green Tea Lemonade,grande,50,0,0,$5.26,130 kcal
+2875,Black Tea,tall,75,2,0,$3.89,25 kcal
+2876,White Mocha,venti,25,2,1,$6.09,390 kcal
+2877,Flat White,venti,50,2,0,$4.73,225 kcal
+2878,Caramel Latte,tall,75,1,0,$4.05,210 kcal
+2879,Mocha,grande,100,1,2,$5.71,280 kcal
+2880,Matcha Latte,grande,100,3,0,$5.98,285 kcal
+2881,Mocha,tall,75,2,1,$3.48,280 kcal
+2882,Cappuccino,tall,100,1,0,$5.18,160 kcal
+2883,Hot Chocolate,venti,75,1,0,$5.66,350 kcal
+2884,Americano,grande,100,0,0,$3.46,55 kcal
+2885,White Mocha,tall,25,2,1,$5.11,360 kcal
+2886,Caramel Frappuccino,tall,25,0,1,$3.24,330 kcal
+2887,Matcha Latte,venti,100,4,0,$6.14,330 kcal
+2888,Iced Matcha,grande,25,4,0,$5.72,260 kcal
+2889,Strawberry Cream,venti,100,5,0,$6.21,420 kcal
+2890,Iced Americano,grande,0,0,2,$4.62,75 kcal
+2891,Strawberry Cream,grande,0,5,0,$3.90,370 kcal
+2892,Vanilla Latte,short,25,1,0,$3.57,175 kcal
+2893,Chai Tea,venti,50,4,0,$4.65,265 kcal
+2894,Matcha Latte,short,0,0,0,$3.27,235 kcal
+2895,Mocha,short,100,1,1,$5.25,235 kcal
+2896,Latte,venti,0,1,3,$4.30,190 kcal
+2897,Iced Matcha,venti,100,2,0,$4.16,285 kcal
+2898,Caramel Frappuccino,tall,50,2,1,$4.04,305 kcal
+2899,Cold Brew,tall,0,2,0,$5.04,90 kcal
+2900,Green Tea Lemonade,grande,50,4,0,$4.47,155 kcal
+2901,Latte,grande,25,1,0,$5.08,185 kcal
+2902,Cappuccino,mega,75,5,0,$3.78,185 kcal
+2903,Caramel Frappuccino,venti,0,2,1,$4.81,380 kcal
+2904,Hot Chocolate,tall,75,5,1,$4.13,310 kcal
+2905,Cold Brew,short,25,4,0,$4.25,55 kcal
+2906,Cappuccino,venti,100,5,0,$4.89,205 kcal
+2907,Green Tea Lemonade,grande,75,0,0,$4.52,145 kcal
+2908,Cappuccino,grande,75,2,0,$5.14,180 kcal
+2909,Green Tea Lemonade,tall,100,3,0,$3.74,130 kcal
+2910,Caramel Latte,grande,100,1,0,$5.45,245 kcal
+2911,Green Tea Lemonade,short,100,0,0,$3.02,100 kcal
+2912,Caramel Frappuccino,tall,25,4,1,$3.40,320 kcal
+2913,Black Tea,grande,25,0,0,$3.72,60 kcal
+2914,Iced Matcha,grande,25,3,0,$3.53,285 kcal
+2915,Green Tea Lemonade,short,25,3,0,$3.11,85 kcal
+2916,Hot Chocolate,grande,50,5,1,$3.58,335 kcal
+2917,Flat White,tall,50,2,0,$3.32,190 kcal
+2918,Chai Tea,venti,0,4,0,$4.07,275 kcal
+2919,Hot Chocolate,grande,25,5,0,$3.74,320 kcal
+2920,Green Tea Lemonade,venti,0,1,0,$5.41,180 kcal
+2921,Espresso,short,100,0,0,$3.06,10 kcal
+2922,Strawberry Cream,tall,75,5,0,$4.56,370 kcal
+2923,Iced Americano,tall,0,3,0,$4.30,35 kcal
+2924,White Mocha,tall,25,5,1,$4.69,340 kcal
+2925,Mocha,short,25,2,0,$4.13,270 kcal
+2926,Flat White,tall,75,2,0,$4.37,175 kcal
+2927,Cold Brew,tall,100,0,0,$3.21,65 kcal
+2928,Strawberry Cream,grande,50,4,0,$3.87,360 kcal
+2929,Espresso,short,50,0,0,$4.72,5 kcal
+2930,White Mocha,venti,0,1,1,$5.22,385 kcal
+2242,Hazelnut Latte,grande,25,1,0,$5.38,245 kcal
+2266,White Mocha,venti,75,2,1,$6.14,390 kcal
+2318,Cappuccino,tall,50,3,0,$5.24,170 kcal
+2560,Caramel Latte,venti,100,0,0,$4.79,235 kcal
+2025,Caramel Latte,mini,0,5,0,$3.37,200 kcal
+2182,Hot Chocolate,tall,0,4,1,$5.22,285 kcal
+2445,Latte,tall,50,1,0,$5.51,140 kcal
+2465,Caramel Latte,tall,0,1,0,$5.31,195 kcal
+2123,Chai Tea,mega,50,4,0,$5.13,265 kcal
+2459,Latte,grande,100,1,0,$4.43,160 kcal
+2140,White Mocha,short,75,3,2,$4.08,340 kcal
+2222,Green Tea Lemonade,grande,0,0,0,$5.23,130 kcal
+2588,Latte,short,25,5,0,$3.97,115 kcal
+2183,Cold Brew,tall,75,0,0,$4.87,80 kcal
+2919,Hot Chocolate,grande,25,5,0,$3.74,320 kcal
+2252,Latte,venti,25,1,3,$6.24,175 kcal
+2598,Strawberry Cream,grande,75,5,0,$4.43,395 kcal
+2277,Americano,tall,75,0,0,$4.22,35 kcal
+2310,Latte,venti,25,1,0,$4.68,175 kcal
+2737,Latte,tall,100,2,0,$4.34,160 kcal
+2782,Iced Matcha,grande,0,3,0,$5.72,250 kcal
+2906,Cappuccino,venti,100,5,0,$4.89,205 kcal
+2446,Flat White,tall,0,3,0,$5.18,185 kcal
+2905,Cold Brew,mini,25,4,0,$4.25,55 kcal
+2038,Chai Tea,short,75,0,0,$4.07,210 kcal
+2138,Cold Brew,venti,100,0,0,$5.09,140 kcal
+2441,Matcha Latte,tall,100,3,0,$4.49,270 kcal
+2045,Matcha Latte,grande,75,0,0,$5.19,295 kcal
+2578,Mocha,grande,25,2,0,$3.73,315 kcal
+2282,Latte,tall,0,1,0,$4.97,125 kcal
+2708,Espresso,short,75,0,0,$4.30,20 kcal
+2162,Flat White,tall,100,2,0,$5.67,210 kcal
+2273,Flat White,grande,100,2,2,$5.12,210 kcal
+2106,Matcha Latte,venti,50,3,0,$4.01,295 kcal
+2594,Matcha Latte,grande,100,3,0,$5.01,280 kcal
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+5970,Hot Chocolate,venti,0,5,1,$4.83,350 kcal
+5971,Strawberry Cream,venti,0,5,1,$4.61,400 kcal
+5972,Cappuccino,tall,50,5,0,$4.96,160 kcal
+5973,Mocha,short,50,2,1,$4.65,250 kcal
+5974,Cappuccino,short,25,5,1,$3.37,140 kcal
+5975,Vanilla Latte,short,100,1,0,$3.62,190 kcal
+5976,Iced Matcha,short,25,3,0,$4.92,220 kcal
+5977,Iced Americano,grande,100,0,1,$5.25,65 kcal
+5978,Hot Chocolate,short,0,5,0,$5.12,280 kcal
+5979,Latte,short,50,1,0,$3.96,120 kcal
+5980,Matcha Latte,short,75,3,1,$4.77,240 kcal
+5981,White Mocha,venti,75,2,0,$5.44,390 kcal
+5982,Latte,venti,0,1,0,$5.24,190 kcal
+5983,Iced Americano,short,25,0,1,$4.28,20 kcal
+5984,Green Tea Lemonade,venti,50,0,0,$5.33,160 kcal
+5985,Espresso,short,50,0,0,$3.00,10 kcal
+5986,Cappuccino,short,75,5,1,$3.66,140 kcal
+5987,Black Tea,tall,100,0,0,$3.56,25 kcal
+5988,Strawberry Cream,short,50,5,0,$3.22,330 kcal
+5989,Iced Americano,short,50,0,1,$3.80,20 kcal
+5990,Iced Matcha,tall,75,3,1,$3.40,240 kcal
+5991,Hazelnut Latte,short,25,1,0,$3.44,205 kcal
+5992,Americano,tall,75,0,0,$4.75,35 kcal
+5993,Green Tea Lemonade,venti,50,0,0,$4.74,160 kcal
+5994,Hot Chocolate,tall,0,5,0,$4.29,300 kcal
+5995,Black Tea,short,25,0,0,$5.33,5 kcal
+5996,Strawberry Cream,short,50,5,1,$3.37,330 kcal
+5997,Hot Chocolate,tall,100,5,1,$4.57,300 kcal
+5998,White Mocha,tall,75,2,0,$5.29,340 kcal
+5999,Mocha,short,25,2,0,$5.15,250 kcal

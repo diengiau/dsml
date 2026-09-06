@@ -1,0 +1,132 @@
+---
+title: "Slide 00: Introduction"
+author: "Richard Dien Giau Bui"
+format: revealjs
+editor: visual
+---
+
+## ME
+
+-   **Richard**, Dien Giau Bui (he/him)
+
+-   Email: [diengiau\@nccu.edu.tw](diengiau@nccu.edu.tw)
+
+-   Officer hour: Wednesday afternoon, R, but please email me to book in advance
+
+-   My website: [official](https://ib.nccu.edu.tw/en/Members/Dien-Giau-Richard-Bui-44674554) and [personal](https://diengiau.github.io)
+
+## The course
+
+-   Mainly for business students
+
+-   Basic, but with practical application
+
+-   R programming language
+
+## Materials
+
+-   No official textbook, but the lectures combine three main materials:
+
+    -   Turrell, Arthur. Coding for Economists (selected practical chapters) **\[C4E\]**
+
+    -   James, Gareth, Daniela Witten, Trevor Hastie, and Robert Tibshirani, eds. 2013. An introduction to statistical learning: with applications in R. New York: Springer. **\[ISLR\]**
+
+    -   [Data science for economists](https://github.com/uo-ec607/lectures)
+
+-   My lecture slides + codes + data
+
+    -   I will put everything into a public github: <https://github.com/diengiau/dsml>
+
+-   But if you're new to R, please read this book for your references:
+
+    -   R4DS: <http://r4ds.had.co.nz>
+
+## Required software
+
+-   R programming
+
+    -   is one statistical programming language
+    -   very popular in statistics, science, and ML projects
+
+-   RStudio: and IDE for easier using R
+
+-   Tough at start
+
+-   ... but maybe help you in the future
+
+## Why R?
+
+-   To be consistent in the EBBA program:
+
+    -   two courses will use R
+    -   then you can take other courses for Python
+
+-   Free (open-source) and flexible to small-big projects
+
+-   Active and broad user community
+
+    -   E.g., iOS community vs Blackberry community
+
+## To install R
+
+-   First, install R from R-CRAN
+
+    -   Step 1: download R install file; Step 2-n: Yes, Yes, Yes
+
+-   Second, install RStudio Desktop (free version)
+
+-   Third, install R packages
+
+    -   For data manipulation: `install.packages("tidyverse")`; for Mac user, `install.packages("dplyr")` is enough
+    -   For string and date: `stringr`, `lubridate`
+    -   For statistics: `janitor`, `skimr`, `broom`, `purrr`
+
+-   Fourth, when use the packages: `library(tidyverse)`
+
+## Lab vs your personal computer
+
+-   IT staffs installed R and RStudio for you
+
+-   But more convenient to have it installed in your own computer
+
+-   Ask me or the TA any time you have questions in class
+
+## RStudio interface
+
+![](images/clipboard-182210716.png)
+
+## Some useful short-cut
+
+-   **TAB**: for complete codes automatically
+-   **CTRL+ENTER**: for possible options in the codes
+-   **CTRL+SHIFT+M**: for the pipe `%>%` special letter
+-   **CTRL+ALT+I**: for insert a new R code block into the **QMD**/RMD file
+
+## QMD file
+
+-   It is a special file format by RStudio, allowing you to write and code at the same time, using the `markdown` format
+-   E.g., this file is a **QMD** file
+-   There are two types of content in QMD file:
+    -   Text: anything you type
+    -   Code: anything inside an R code block, by **CTRL+ALT+I** shortcut or click the green C+ button in RStudio
+-   It can **render** to many other file formats (docx, PDF, **HTML**, **revealjs**, ...) by click to **Render** button
+
+## AI policy in the class
+
+-   There are some AI tools to use with RStudio
+-   Do you want to use ChatGPT in this class?
+-   If yes, ...
+
+## Any questions
+
+-   Please don't ask for extra points at the semester end.
+
+-   It is difficult but useful and can pass-able if you tried hard in class
+
+## Code is cool
+
+> Don't code for pass, for passion! (maybe Richard said, 2020)
+
+## Thank you
+
+-   Are you ready?

@@ -1,0 +1,49 @@
+---
+title: "03 Practice clean data"
+author: "Richard Dien Giau Bui"
+format: revealjs
+editor: visual
+---
+
+## Our data today
+
+-   **Starbuck nutrition** data
+
+-   In the `data/raw/starbucks-nutrition.xlsx` file
+
+-   Please open the Excel file first to see the data
+
+## Clean steps \[1\]
+
+1.  Import data and save it as `Starbucks` dataframe
+2.  Clean names automatically with `clean_names` function
+3.  Some rows are totally missing. Delete them using a suitable R function
+4.  Some rows are duplicated. Try to remove all the duplications.
+    -   Delete the row that is totally missing
+    -   Keep the rows with more information
+5.  Some `size` has typo: instead of "venti", we make typo to "vendi"
+
+## Clean steps \[2\]
+
+6.  Any column has the wrong data type? If you can find them, let's convert them into the correct data format.
+7.  The whip column should have only two values: 1 if we added whip cream and 0 otherwise. But we have some other values like 2 or 3. Please change all these typos to 1.
+8.  Some `size` is not quite popular, let's delete them. Only keep these size: `short`, `tall`, `grande`, `venti`
+
+## Clean steps \[3\]
+
+9.  Create a new column `milk_type` as follow:
+    -   If milk = 0 then `milk_type` = "none"
+    -   If milk = 1 then `milk_type` = "nonfat"
+    -   If milk = 2 then `milk_type` = "2%"
+    -   If milk = 3 then `milk_type` = "soy"
+    -   If milk = 4 then `milk_type` = "coconut"
+    -   If milk = 5 then `milk_type` = "whole"
+10. Save your final data into the `data/process` folder as the name: `starbucks_clean.rds`
+
+## Let's go
+
+-   <div>
+
+    > Life needs luck! (Richard, 2024)
+
+    </div>

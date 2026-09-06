@@ -23,6 +23,13 @@ Please read the full description at [Syllabus website](https://newdoc.nccu.edu.t
 ## Lecture Materials
 
 1.  Introduction: [md](00_intro.qmd)
-2.  Data: md
-3.  Clean dataframe
-4.  
+2.  Data: [md](01_data.qmd)
+3.  Dataframe: [md](02_dataframe.qmd)
+4.  Practice clean data frame: [md](03_practice_clean_data.qmd)
+5.  Visualization
+6.  Statistical tests
+7.  Git
+8.  Database
+9.  Introduction to machine learning
+10. Regressions
+11. Classification
