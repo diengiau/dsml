@@ -28,6 +28,9 @@ Please read the full description at [Syllabus website](https://newdoc.nccu.edu.t
 3.  Dataframe: [md](02_dataframe.qmd)
 4.  Practice clean data frame: [md](03_practice_clean_data.qmd)
 5.  Visualization
+    -   Data Visualization with ggplot2: [html](outputs/data-viz.html)
+
+    -   Dashboard example: md
 6.  Statistical tests
 7.  Git
 8.  Database: [md](database101.qmd)

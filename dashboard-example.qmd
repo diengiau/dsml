@@ -1,0 +1,79 @@
+---
+title: "mtcars Dashboard"
+format: dashboard
+theme: cosmo
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: setup
+library(ggplot2)
+library(dplyr)
+library(plotly)
+
+Data <- mtcars
+```
+
+## Row {height="20%"}
+
+```{r}
+#| content: valuebox
+#| title: "Cars in dataset"
+#| icon: car-front
+#| color: primary
+list(value = nrow(Data))
+```
+
+```{r}
+#| content: valuebox
+#| title: "Average MPG"
+#| icon: speedometer2
+#| color: success
+list(value = round(mean(Data$mpg), 1))
+```
+
+```{r}
+#| content: valuebox
+#| title: "Average HP"
+#| icon: lightning-charge
+#| color: warning
+list(value = round(mean(Data$hp), 0))
+```
+
+## Row {height="80%"}
+
+### Column {width="33%"}
+
+```{r}
+#| title: "Cars by Cylinder Count"
+Data %>%
+  count(cyl) %>%
+  ggplot(aes(x = factor(cyl), y = n, fill = factor(cyl))) +
+  geom_col(show.legend = FALSE) +
+  labs(x = "Cylinders", y = "Number of cars") +
+  theme_minimal()
+```
+
+### Column {width="33%"}
+
+```{r}
+#| title: "Distribution of MPG"
+ggplot(Data, aes(mpg)) +
+  geom_histogram(bins = 10, fill = "steelblue", color = "white") +
+  labs(x = "Miles per gallon", y = "Count") +
+  theme_minimal()
+```
+
+### Column {width="34%"}
+
+```{r}
+#| title: "Horsepower vs. MPG"
+p <- ggplot(Data, aes(x = hp, y = mpg, color = factor(cyl))) +
+  geom_point(size = 2) +
+  labs(x = "Horsepower", y = "MPG", color = "Cylinders") +
+  theme_minimal()
+ggplotly(p)
+```
