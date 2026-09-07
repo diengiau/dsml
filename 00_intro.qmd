@@ -1,7 +1,9 @@
 ---
 title: "Slide 00: Introduction"
 author: "Richard Dien Giau Bui"
-format: revealjs
+format: 
+    revealjs:
+        embed-resources: true
 editor: visual
 ---
 
@@ -11,7 +13,7 @@ editor: visual
 
 -   Email: [diengiau\@nccu.edu.tw](diengiau@nccu.edu.tw)
 
--   Officer hour: Wednesday afternoon, R, but please email me to book in advance
+-   Officer hour: Wednesday afternoon 14:00-16:00, R, but please email me to book in advance
 
 -   My website: [official](https://ib.nccu.edu.tw/en/Members/Dien-Giau-Richard-Bui-44674554) and [personal](https://diengiau.github.io)
 
@@ -19,7 +21,7 @@ editor: visual
 
 -   Mainly for business students
 
--   Basic, but with practical application
+-   Basic, but with practical applications
 
 -   R programming language
 
@@ -31,7 +33,7 @@ editor: visual
 
     -   James, Gareth, Daniela Witten, Trevor Hastie, and Robert Tibshirani, eds. 2013. An introduction to statistical learning: with applications in R. New York: Springer. **\[ISLR\]**
 
-    -   [Data science for economists](https://github.com/uo-ec607/lectures)
+    -   [Data science for economists](https://github.com/uo-ec607/lectures) class
 
 -   My lecture slides + codes + data
 
@@ -40,6 +42,52 @@ editor: visual
 -   But if you're new to R, please read this book for your references:
 
     -   R4DS: <http://r4ds.had.co.nz>
+
+
+## Teaching approach
+
+- 30% lecture
+- 30% discussion
+- 40% group activity
+
+## Group
+
+- In long term, we often work on team
+- Max: 3 people
+- Min: 1 person
+
+## Scoring policy
+
+- Midterm exam (in person): 30%
+
+- Problem sets (in person/or group, will announced each time): 30%
+
+- Final Project (in group): 40%
+
+
+## AI policy in the class
+
+-   There are some AI tools to use with RStudio
+-   Do you want to use ChatGPT in this class?
+-   If yes, ...
+
+
+## My expectation/rule
+
+-   Please don't ask for extra points at the semester end.
+
+-   It is difficult but useful and can pass-able if you tried hard in class
+
+- Please email me before visiting office hour. I will confirm in advance.
+
+## Schedule this semester
+
+- Midterm: on Week 8
+- Final presentation: last two weeks
+- We will have one missing/make up class: 
+    - No class on week of Dec 7-8 (I'll go to a conference)
+    - Make up class: we will decide near that week
+
 
 ## Required software
 
@@ -87,9 +135,15 @@ editor: visual
 
 -   IT staffs installed R and RStudio for you
 
--   But more convenient to have it installed in your own computer
+-   But more convenient to have it installed on your own computer
 
 -   Ask me or the TA any time you have questions in class
+
+## Another online solution
+
+- Use Google's [Colab](https://colab.research.google.com/) platform
+    - Link to your Google account
+
 
 ## RStudio interface
 
@@ -111,17 +165,70 @@ editor: visual
     -   Code: anything inside an R code block, by **CTRL+ALT+I** shortcut or click the green C+ button in RStudio
 -   It can **render** to many other file formats (**docx**, **PDF**, **HTML**, **revealjs**, ...) by click to **Render** button
 
-## AI policy in the class
 
--   There are some AI tools to use with RStudio
--   Do you want to use ChatGPT in this class?
--   If yes, ...
 
-## Any questions
+## A kick-off question
 
--   Please don't ask for extra points at the semester end.
+-   Why coding for biz students?
 
--   It is difficult but useful and can pass-able if you tried hard in class
+
+## Why coding for biz students?
+
+-   Data is now the primary input for business decisions:
+
+-   Higher expectation on data literacy from employers
+
+-   It is a competitive differentiator between two otherwise similar candidates in hiring and promotion
+
+-   It sharpens judgement and critical thinking
+
+## A quote
+
+> "In God we trust; all others must bring data." (W. Edwards Deming)
+
+## Job posting examples
+
+-   I do search in September 2026
+
+-   **linkedin**
+
+-   keywords: "marketing manager" + "SQL"
+
+## Example of job posting: Coupang, Taipei
+
+![](images/clipboard-3993202277.png)
+
+## Its "basic" requirement
+
+![](images/clipboard-1393724960.png)
+
+## Another example: Yahoo e-commerce's product manager
+
+![](images/clipboard-3968411397.png)
+
+## Its "minimum" requirement
+
+![](images/clipboard-1482111734.png)
+
+## Data literacy = new (English) language skill?
+
+-   Yes
+
+    -   Confirmed by hiring posts
+
+    -   Teamwork with other tech teams
+
+    -   Increasing rate of returns (income - cost)
+
+-   Data literacy has many levels
+
+    -   Basic/baseline: reading/making dashboards, basic SQL/Excel/R/Python, interpreting the model (regression/classification) outputs
+
+    -   Data science/ML expertise
+
+-   Combining your field expertise + data science skill to make you different
+
+
 
 ## Code is cool
 
