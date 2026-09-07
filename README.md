@@ -1,4 +1,4 @@
-# Data Science and Machine Learning for Business
+# [DSML] Data Science and Machine Learning for Business
 
 Data Science and Machine Learning (Business Undergradate).
 
@@ -22,7 +22,7 @@ This is an undergraduate course taught by Richard Dien Giau Bui at the National 
 >
 > The class is for undergraduate students with programming skills, basic mathematics, and are curious to learn about how machine learning can be applied for business decision-making.
 
-Please read the full description at [Syllabus website](https://newdoc.nccu.edu.tw/teaschm/1151/schmPrv.jsp-yy=115&smt=1&num=301767&gop=00&s=1.html)
+Please read the full description at [Syllabus website](https://newdoc.nccu.edu.tw/teaschm/1151/schmPrv.jsp-yy=115&smt=1&num=301767&gop=00&s=1.html).
 
 ## Lectures
 
@@ -33,7 +33,6 @@ Please read the full description at [Syllabus website](https://newdoc.nccu.edu.t
 4.  Practice clean data frame: [md](03_practice_clean_data.qmd)
 5.  Visualization
     -   Data Visualization with ggplot2: [html](https://raw.githack.com/diengiau/dsml/main/outputs/data-viz.html)
-
     -   Dashboard example: [md](dashboard-example.qmd), [html](https://raw.githack.com/diengiau/dsml/main/outputs/dashboard-example.html)
 6.  Statistical tests
 7.  Git
