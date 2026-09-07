@@ -30,7 +30,7 @@ Please read the full description at [Syllabus website](https://newdoc.nccu.edu.t
 5.  Visualization
 6.  Statistical tests
 7.  Git
-8.  Database
+8.  Database: [md](database101.qmd)
 9.  Introduction to machine learning
 10. Regressions
 11. Classification
