@@ -1,7 +1,9 @@
 ---
 title: "Slide 02: Dataframe (or Table)"
 author: "Richard Dien Giau Bui"
-format: html
+format: 
+    revealjs:
+        embed-resources: true
 editor: visual
 ---
 
