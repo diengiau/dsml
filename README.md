@@ -22,13 +22,13 @@ Please read the full description at [Syllabus website](https://newdoc.nccu.edu.t
 
 ## Lecture Materials
 
-1.  Class Introduction: [md](00_intro.qmd)
+1.  Class Introduction: [md](00_intro.qmd), [html](https://raw.githack.com/diengiau/dsml/main/outputs/00_intro.html)
     -   A reproducible data analysis workflow: [pdf](outputs/reproducible-workflow-lecture.pdf), [pptx](outputs/reproducible-workflow-lecture.pptx)
 2.  Data: [md](01_data.qmd)
 3.  Dataframe: [md](02_dataframe.qmd)
 4.  Practice clean data frame: [md](03_practice_clean_data.qmd)
 5.  Visualization
-    -   Data Visualization with ggplot2: [html](outputs/data-viz.html)
+    -   Data Visualization with ggplot2: [html](https://raw.githack.com/diengiau/dsml/main/outputs/data-viz.html)
 
     -   Dashboard example: [md](dashboard-example.qmd)
 6.  Statistical tests
