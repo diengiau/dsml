@@ -8,6 +8,10 @@ Class 2026 Fall, NCCU, Taipei.
 
 Instructor: Richard Dien Giau Bui
 
+[`Introduction`](#introduction)  | [`Lectures`](#lectures) |
+[`FAQ`](#faq) | [`License`](#license)
+
+
 ## Introduction
 
 This is an undergraduate course taught by Richard Dien Giau Bui at the National Chengchi University. Here is the course description, taken from the syllabus:
@@ -20,7 +24,7 @@ This is an undergraduate course taught by Richard Dien Giau Bui at the National 
 
 Please read the full description at [Syllabus website](https://newdoc.nccu.edu.tw/teaschm/1151/schmPrv.jsp-yy=115&smt=1&num=301767&gop=00&s=1.html)
 
-## Lecture Materials
+## Lectures
 
 1.  Class Introduction: [md](00_intro.qmd), [html](https://raw.githack.com/diengiau/dsml/main/outputs/00_intro.html)
     -   A reproducible data analysis workflow: [pdf](outputs/reproducible-workflow-lecture.pdf), [pptx](outputs/reproducible-workflow-lecture.pptx)
@@ -38,3 +42,11 @@ Please read the full description at [Syllabus website](https://newdoc.nccu.edu.t
 10. Regressions
 11. Classification
 12. Publish/deployment reports
+
+## FAQ
+
+TBA.
+
+## License
+
+The material in this repository is made available under the [MIT license](http://opensource.org/licenses/mit-license.php).
