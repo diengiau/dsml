@@ -64,6 +64,26 @@ editor: visual
 
 - Final Project (in group): 40%
 
+## Final project
+
+- A story-telling report
+- Data- and code-embedded and self-contained report
+- You can choose any format to present your report: a pdf, a slide, a dashboard, or a published website!
+- You also need to present your story to me in final weeks (expected around Week 15-16)
+
+## A good start: data
+
+- I often recommend to use [Kaggle](https://www.kaggle.com/)
+
+
+
+## Schedule this semester
+
+- Midterm: on Week 8
+- Final presentation: last two weeks
+- We will have one missing/make up class: 
+    - No class on week of Dec 7-8 (I'll go to a conference)
+    - Make up class: we will decide near that week
 
 ## AI policy in the class
 
@@ -78,15 +98,7 @@ editor: visual
 
 -   It is difficult but useful and can pass-able if you tried hard in class
 
-- Please email me before visiting office hour. I will confirm in advance.
-
-## Schedule this semester
-
-- Midterm: on Week 8
-- Final presentation: last two weeks
-- We will have one missing/make up class: 
-    - No class on week of Dec 7-8 (I'll go to a conference)
-    - Make up class: we will decide near that week
+-   Please email me before visiting office hour. I will confirm in advance.
 
 
 ## Required software
