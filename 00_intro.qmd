@@ -106,10 +106,10 @@ editor: visual
 
 -   It is a special file format by RStudio, allowing you to write and code at the same time, using the `markdown` format
 -   E.g., this file is a **QMD** file
--   There are two types of content in QMD file:
-    -   Text: anything you type
+-   There are two main contents in QMD file:
+    -   Text: anything you type, for reasoning, discussion so that readers can understand the analysis
     -   Code: anything inside an R code block, by **CTRL+ALT+I** shortcut or click the green C+ button in RStudio
--   It can **render** to many other file formats (docx, PDF, **HTML**, **revealjs**, ...) by click to **Render** button
+-   It can **render** to many other file formats (**docx**, **PDF**, **HTML**, **revealjs**, ...) by click to **Render** button
 
 ## AI policy in the class
 
