@@ -23,7 +23,7 @@ Please read the full description at [Syllabus website](https://newdoc.nccu.edu.t
 ## Lecture Materials
 
 1.  Class Introduction: [md](00_intro.qmd)
-    -   A reproducible data analysis workflow: [pdf](reproducible-workflow-lecture.pdf), [pptx](reproducible-workflow-lecture.pptx)
+    -   A reproducible data analysis workflow: [pdf](outputs/reproducible-workflow-lecture.pdf), [pptx](outputs/reproducible-workflow-lecture.pptx)
 2.  Data: [md](01_data.qmd)
 3.  Dataframe: [md](02_dataframe.qmd)
 4.  Practice clean data frame: [md](03_practice_clean_data.qmd)
