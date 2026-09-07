@@ -52,9 +52,9 @@ editor: visual
 
 ## Group
 
-- In long term, we often work on team
+- In long term, we often work in team
 - Max: 3 people
-- Min: 1 person
+- Min: 1 person (ask me first)
 
 ## Scoring policy
 
@@ -116,10 +116,7 @@ editor: visual
 
 ## Why R?
 
--   To be consistent in the EBBA program:
-
-    -   two courses will use R
-    -   then you can take other courses for Python
+-   Easy/intuitive programming
 
 -   Free (open-source) and flexible to small-big projects
 
