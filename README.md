@@ -30,10 +30,11 @@ Please read the full description at [Syllabus website](https://newdoc.nccu.edu.t
 5.  Visualization
     -   Data Visualization with ggplot2: [html](outputs/data-viz.html)
 
-    -   Dashboard example: md
+    -   Dashboard example: [md](dashboard-example.qmd)
 6.  Statistical tests
 7.  Git
 8.  Database: [md](database101.qmd)
 9.  Introduction to machine learning
 10. Regressions
 11. Classification
+12. Publish/deployment reports
