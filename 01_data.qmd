@@ -1,7 +1,9 @@
 ---
 title: "Slide 01: Data"
 author: "Richard Dien Giau Bui"
-format: revealjs
+format: 
+    revealjs:
+        embed-resources: true
 editor: visual
 ---
 
@@ -245,7 +247,7 @@ mtcars[1,]
 ## Make data larger
 
 | Function | When to use |
-|----|----|
+|------------------------------------|------------------------------------|
 | `mutate` | Create new variables |
 | `transmute` | Also create new variables, but keep only these new variables and drop all old variables |
 
