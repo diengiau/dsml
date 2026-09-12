@@ -1,0 +1,30 @@
+
+```{r}
+library(ISLR2)
+library(broom)
+
+```
+
+Instead of using `summary(lm.fit)$sigma` to get RSE after a regression, we can manually calculate RSE of a regression as follows. I use the formula from this note: [https://www.geeksforgeeks.org/machine-learning/what-is-residual-standard-error/](https://www.geeksforgeeks.org/machine-learning/what-is-residual-standard-error/)
+
+The model is similar to the main lecture:
+```{r}
+Boston = ISLR2::Boston
+lm.fit <- lm(medv ~ ., data = Boston)
+summary(lm.fit)
+```
+
+
+
+To calculate RSE manually (more useful in case we want to fit model using training sample then use the model to predict a test sample:
+```{r}
+# Step 1: Collect key information and make predictions from a model
+Prediction = augment(lm.fit)
+tidy((lm.fit))
+Model = glance(lm.fit)
+
+# Step 2 2. Calculate RSE using the training model's degrees of freedom
+rse_train <- sqrt(sum((Prediction$medv - Prediction$.fitted)^2) / (Model$nobs-12-1))
+
+```
+
