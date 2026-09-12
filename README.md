@@ -30,7 +30,7 @@ Please read the full description at [Syllabus website](https://newdoc.nccu.edu.t
     -   A reproducible data analysis workflow: [pdf](outputs/reproducible-workflow-lecture.pdf), [pptx](outputs/reproducible-workflow-lecture.pptx)
 2.  Data: [md](01_data.qmd), [html](https://raw.githack.com/diengiau/dsml/main/outputs/01_data.html)
 3.  Dataframe: [md](02_dataframe.qmd), [html](https://raw.githack.com/diengiau/dsml/main/outputs/02_dataframe.html)
-4.  Practice clean data frame: [md](03_practice_clean_data.qmd)
+4.  Practice clean data frame
 5.  Visualization
     -   Data Visualization with ggplot2: [html](https://raw.githack.com/diengiau/dsml/main/outputs/data-viz.html)
     -   Dashboard example: [md](dashboard-example.qmd), [html](https://raw.githack.com/diengiau/dsml/main/outputs/dashboard-example.html)
@@ -46,7 +46,11 @@ Please read the full description at [Syllabus website](https://newdoc.nccu.edu.t
 
 ## FAQ
 
-TBA.
+1. Which packages to install for this class?
+
+Please install the packages by running file `scripts/requirements.R`. Simply run `source(scripts/requirements.R)` in console.
+
+
 
 ## License
 
