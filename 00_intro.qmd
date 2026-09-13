@@ -31,7 +31,7 @@ editor: visual
 
   - Turrell, Arthur. Coding for Economists (selected practical chapters) **\[C4E\]**
 
-  - James, Gareth, Daniela Witten, Trevor Hastie, and Robert Tibshirani, eds. 2013. An introduction to statistical learning: with applications in R. New York: Springer. **\[ISLR\]**
+  - James, Gareth, Daniela Witten, Trevor Hastie, and Robert Tibshirani, 2021. An introduction to statistical learning: with applications in R New York: Springer. **\[ISLR\]**
 
   - [Data science for economists](https://github.com/uo-ec607/lectures) class
 
