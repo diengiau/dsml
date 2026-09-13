@@ -9,7 +9,7 @@ editor: visual
 
 ## Load packages
 
--   Again, first load required packages:
+- Again, first load required packages:
 
 ```{r}
 #| echo: true
@@ -22,11 +22,11 @@ library(janitor)
 
 ## Dataframe
 
--   In R, we often put data in a dataframe (or data.frame)
+- In R, we often put data in a dataframe (or data.frame)
 
--   In short, it is a table, like Excel table
+- In short, it is a table, like Excel table
 
--   So, we will learn how to work with a dataframe in this slide
+- So, we will learn how to work with a dataframe in this slide
 
 ## How to make a dataframe in R?
 
@@ -47,14 +47,14 @@ Data
 
 ## 2. Import data
 
--   First, check the working directory
+- First, check the working directory
 
 ```{r}
 #| echo: true
 getwd()
 ```
 
--   You can change to correct folder by:
+- You can change to correct folder by:
 
 ```{r}
 #| echo: true
@@ -62,34 +62,34 @@ getwd()
 setwd()
 ```
 
--   Make sure you know where the data is before import by the correct function
+- Make sure you know where the data is before import by the correct function
 
-    -   If your data is Excel (xls, xlsx): `read_excel`
-    -   If `csv` format: `read_csv`
-    -   If `rds` format: `read_rds`
+  - If your data is Excel (xls, xlsx): `read_excel`
+  - If `csv` format: `read_csv`
+  - If `rds` format: `read_rds`
 
-    ```{r}
-    Tuition = read_excel("data/raw/us_avg_tuition.xlsx")
-    ```
+  ```{r}
+  Tuition = read_excel("data/raw/us_avg_tuition.xlsx")
+  ```
 
 ## Our data in today lecture
 
--   The US tuition fee in different states and territories
--   A picture on the data: [click here](https://onlinembapage.com/wp-content/uploads/2016/03/AverageTuition_Part1b.jpg)
--   I borrowed the data from: [Tidy Tuesday project](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018)
--   I downloaded data and made it messy/dirty and store it in our "data/raw/us_avg_tuition.xlsx"
--   Let's clean this data
-    -   I noted step by step in this slide
+- The US tuition fee in different states and territories
+- A picture on the data: [click here](https://onlinembapage.com/wp-content/uploads/2016/03/AverageTuition_Part1b.jpg)
+- I borrowed the data from: [Tidy Tuesday project](https://github.com/rfordatascience/tidytuesday/tree/master/data/2018)
+- I downloaded data and made it messy/dirty and store it in our "data/raw/us_avg_tuition.xlsx"
+- Let's clean this data
+  - I noted step by step in this slide
 
 ## Some questions
 
--   How many columns & rows in data?
+- How many columns & rows in data?
 
--   What columns we have in the data?
+- What columns we have in the data?
 
--   Show the head of data (first few rows)
+- Show the head of data (first few rows)
 
--   Take the first column of data
+- Take the first column of data
 
 ## How many columns & rows in data?
 
@@ -116,9 +116,9 @@ head(Tuition)
 
 ## Take one column of data
 
--   The function will be: `Data$Column`
+- The function will be: `Data$Column`
 
--   Remember to use **TAB** key after the `$` to easy your life
+- Remember to use **TAB** key after the `$` to easy your life
 
 ```{r}
 #| echo: true
@@ -127,63 +127,59 @@ Tuition$State
 
 ## Tidy dataframe
 
--   All dataframes are often dirty, but some are clean
+- All dataframes are often dirty, but some are clean
 
-    -   Like all ladies are beautiful, but some are more beautiful
+  - Like all ladies are beautiful, but some are more beautiful
 
--   <div>
+- ::: {}
+  > Happy families are all alike; every unhappy family is unhappy in its own way. (Leo Tolstoy)
+  :::
 
-    > Happy families are all alike; every unhappy family is unhappy in its own way. (Leo Tolstoy)
-
-    </div>
-
--   <div>
-
-    > Tidy datasets are all alike, but every messy dataset is messy in its own way. (Hadley Wickham)
-
-    </div>
+- ::: {}
+  > Tidy datasets are all alike, but every messy dataset is messy in its own way. (Hadley Wickham)
+  :::
 
 ## How (all) tidy data look like?
 
--   First row is columns/variable names
+- First row is columns/variable names
 
--   Each row is one observation
+- Each row is one observation
 
--   Each cell is a value
+- Each cell is a value
 
 ![](images/tidy_data.png)
 
 ## Examples of (specific) dirty data
 
--   Messy variable names
--   Wrong data type: a numeric variable but is stored as characters
--   Not in tidy format
--   Some typos in data: `"femela"` (should be `"female"`)
--   Duplicates: some rows are repeated
--   Missing data: some rows/columns have no data
+- Messy variable names
+- Wrong data type: a numeric variable but is stored as characters
+- Not in tidy format
+- Some typos in data: `"femela"` (should be `"female"`)
+- Duplicates: some rows are repeated
+- Missing data: some rows/columns have no data
 
 ## Why not just dirty data?
 
--   "Garbage in, garbage out"
--   So, cleaning step makes sure we have clean data before doing any statistical analysis
--   That's why we start this course with a lecture on cleaning data
+- "Garbage in, garbage out"
+- So, cleaning step makes sure we have clean data before doing any statistical analysis
+- That's why we start this course with a lecture on cleaning data
 
 ## Your turn
 
--   Can you open the data and help me to find which part of data looks dirty?
+- Can you open the data and help me to find which part of data looks dirty?
 
 ## Discussion \[1\]
 
--   By hover the mouse over columns, we find that the data type is imported incorrectly
-    -   It is numeric data, but now is imported as character
--   Columns names: quite non-standard
+- By hover the mouse over columns, we find that the data type is imported incorrectly
+  - It is numeric data, but now is imported as character
+- Columns names: quite non-standard
 
 ```{r}
 #| echo: true
 names(Tuition)
 ```
 
--   For example, can you try to take one column for the year "2004-2005":
+- For example, can you try to take one column for the year "2004-2005":
 
 ```{r}
 #| echo: true
@@ -194,17 +190,17 @@ Tuition$2004-05
 
 ## Discussion \[2\]
 
--   One row is duplicate/repeated: can you help me to find which row?
+- One row is duplicate/repeated: can you help me to find which row?
 
--   One row has no data (missing data)
+- One row has no data (missing data)
 
--   Some state names are in abbreviation, not with full name: can you find them?
+- Some state names are in abbreviation, not with full name: can you find them?
 
--   **Conclusion:** there are a lot of problems with data, let's clean it in next slides
+- **Conclusion:** there are a lot of problems with data, let's clean it in next slides
 
 ## Clean 01. Clean column names
 
--   You can rename one by one by `rename` function:
+- You can rename one by one by `rename` function:
 
 ```{r}
 #| echo: true
@@ -213,7 +209,7 @@ Tuition$2004-05
 rename(Tuition, new_name = old_name)
 ```
 
--   Or do automatically by `clean_names`
+- Or do automatically by `clean_names`
 
 ```{r}
 #| echo: true
@@ -223,7 +219,7 @@ head(Tuition[,1:3])
 
 ## Clean 02. Data type casting
 
--   Character is not the same as numeric, for example
+- Character is not the same as numeric, for example
 
 ```{r}
 #| echo: true
@@ -232,8 +228,8 @@ sqrt("16") # we can't apply numeric method to a character
 sqrt(16)
 ```
 
--   We want to convert tuition from character type to numeric
--   In R, we will use `as.numeric` function:
+- We want to convert tuition from character type to numeric
+- In R, we will use `as.numeric` function:
 
 ```{r}
 #| echo: true
@@ -265,7 +261,7 @@ Tuition = Tuition %>%
 
 ## Note on `pipe` or `%>%`
 
--   Traditionally, we will write function like:
+- Traditionally, we will write function like:
 
 ```{r}
 #| echo: true
@@ -274,7 +270,7 @@ Tuition = Tuition %>%
 mutate(Tuition, ...)
 ```
 
--   But in the previous example, I wrote:
+- But in the previous example, I wrote:
 
 ```{r}
 #| echo: true
@@ -283,22 +279,22 @@ mutate(Tuition, ...)
 Tuition %>% mutate(...)
 ```
 
--   In plain English:
-    1.  We take `Tuition` data
-    2.  Then `mutate` to add/update new columns to the data
-    3.  and so on, we can continue forever with pipe
--   It makes our code easier to read and follow, so I will use it a lot in this class
+- In plain English:
+  1.  We take `Tuition` data
+  2.  Then `mutate` to add/update new columns to the data
+  3.  and so on, we can continue forever with pipe
+- It makes our code easier to read and follow, so I will use it a lot in this class
 
 ## Clean 03. Remove duplicates
 
--   Check duplicate by `duplicated`
+- Check duplicate by `duplicated`
 
 ```{r}
 #| echo: true
 duplicated(Tuition)
 ```
 
--   Remove duplicates by `distinct`
+- Remove duplicates by `distinct`
 
 ```{r}
 #| echo: true
@@ -308,13 +304,13 @@ Tuition = Tuition %>%
 
 ## Clean 04. Remove missing data
 
--   Missing data is everywhere
--   We have several ways to deal with missing:
-    -   Find out data
-    -   Fill by a make-sense number: fill by zero, by industry average, ...
-    -   Or remove missing rows
--   We will remove missing for convenience in our data
-    -   Can you guess how we can remove the missing row?
+- Missing data is everywhere
+- We have several ways to deal with missing:
+  - Find out data
+  - Fill by a make-sense number: fill by zero, by industry average, ...
+  - Or remove missing rows
+- We will remove missing for convenience in our data
+  - Can you guess how we can remove the missing row?
 
 ## Remove missing by filter out
 
@@ -326,9 +322,9 @@ Tuition = Tuition %>%
 
 ## Clean 05. String manipulation in `state` columns
 
--   Recall that:
-    -   Some state names are in abbreviation, not with full name: "CA", "NY"
--   We use package "`stringr`" and its function "`str_replace`"
+- Recall that:
+  - Some state names are in abbreviation, not with full name: "CA", "NY"
+- We use package "`stringr`" and its function "`str_replace`"
 
 ```{r}
 #| echo: true
@@ -343,7 +339,7 @@ Tuition = Tuition %>%
 
 ## Clean 06. Wide to long data
 
--   We can transform data from wide to long as following:
+- We can transform data from wide to long as following:
 
 ```{r}
 #| echo: true
@@ -356,12 +352,12 @@ head(Tuition)
 
 ## Your turn
 
--   Can you transform the `year` column to be numeric from 2004 to 2015?
--   For example: `x2004_05` will become `2004`, `x2005_06` will become `2005`
+- Can you transform the `year` column to be numeric from 2004 to 2015?
+- For example: `x2004_05` will become `2004`, `x2005_06` will become `2005`
 
 ## Transform year
 
--   Will solve in class
+- Will solve in class
 
 ```{r}
 #| echo: true
@@ -377,16 +373,16 @@ skim(Tuition)
 
 ## Conclusion
 
--   So many steps to clean a data
--   Need to document all process in an Rmd file like this
-    -   or you can copy each step's code + results to MS `docx` file, but will need more efforts
--   By the end, you can run everything together to get a report: pdf, word, html format
--   Final tip: save this cleaned data to a `data/process` folder
+- So many steps to clean a data
+- Need to document all process in an Rmd file like this
+  - or you can copy each step's code + results to MS `docx` file, but will need more efforts
+- By the end, you can run everything together to get a report: pdf, word, html format
+- Final tip: save this cleaned data to a `data/process` folder
 
 ## Save data
 
--   R provides an `rds` data format to save processed dataframe
--   Today, we save it to `data/process` folder
+- R provides an `rds` data format to save processed dataframe
+- Today, we save it to `data/process` folder
 
 ```{r}
 #| echo: true
@@ -395,12 +391,12 @@ saveRDS(Tuition, "data/process/Tuition_clean.rds")
 
 ## Any questions
 
--   Any questions?
+- Any questions?
 
 ## If no, let summarize some functions we learn today
 
 | Function | Use when: |
-|------------------------------------|------------------------------------|
+|----|----|
 | `nrow`, `ncol`, `dim`, `names`, `head` , `View` | take a look at data |
 | `Data$Column` | take a column from a data |
 | `mutate` | make a new column or modify the existing column |
@@ -414,6 +410,6 @@ saveRDS(Tuition, "data/process/Tuition_clean.rds")
 
 ## Next lecture
 
--   Will be a new data
+- Will be a new data
 
--   And you practice to clean by yourself
+- And you practice to clean by yourself

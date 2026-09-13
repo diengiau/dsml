@@ -9,11 +9,11 @@ editor: visual
 
 ## Load packages
 
--   First, before a code session, think which packages you need to use today
+- First, before a code session, think which packages you need to use today
 
-    -   Like before cooking, which knifes we should use
+  - Like before cooking, which knifes we should use
 
--   Load it with `library(name_of_package)`:
+- Load it with `library(name_of_package)`:
 
 ```{r}
 #| echo: true
@@ -24,7 +24,7 @@ library(skimr)
 
 ## Code block
 
--   Insert a new code block with **CTRL+ALT+I** then run with the green **RUN** button
+- Insert a new code block with **CTRL+ALT+I** then run with the green **RUN** button
 
 ```{r}
 #| echo: true
@@ -33,7 +33,7 @@ library(skimr)
 
 ## Syntax of R language
 
--   Like any language, R also has their own syntax:
+- Like any language, R also has their own syntax:
 
 ```{r}
 #| eval: false
@@ -41,7 +41,7 @@ library(skimr)
 OUTPUT = FUNCTION(INPUT, OTHER_OPTIONS)
 ```
 
--   For example: we take function `sqrt` for number 4 (as input) and the results will be saved to new object `y` . How much is `y` ?
+- For example: we take function `sqrt` for number 4 (as input) and the results will be saved to new object `y` . How much is `y` ?
 
 ```{r}
 y = sqrt(4)
@@ -49,9 +49,9 @@ y = sqrt(4)
 
 ## Comments in R
 
--   Some notes to our codes
+- Some notes to our codes
 
--   Not run and just give information
+- Not run and just give information
 
 ```{r}
 #| echo: true
@@ -62,17 +62,17 @@ y = sqrt(4)
 
 ## Four main data types in R
 
--   `numeric`: for example, counting, km, scores, money, ...
+- `numeric`: for example, counting, km, scores, money, ...
 
--   `character`: for example, "Wednesday", "Today I failed the coding class", ...
+- `character`: for example, "Wednesday", "Today I failed the coding class", ...
 
--   `factor`: e.g., a column with only 4 possible categories: A, B, C, D
+- `factor`: e.g., a column with only 4 possible categories: A, B, C, D
 
--   `date`: `2024-02-28`
+- `date`: `2024-02-28`
 
 ## Type 1. `numeric`
 
--   Create a numeric variable
+- Create a numeric variable
 
 ```{r}
 #| echo: true
@@ -82,7 +82,7 @@ x = c(0.1, 0.4, 0.5)
 typeof(x)
 ```
 
--   Some math manipulation with numeric
+- Some math manipulation with numeric
 
 ```{r}
 #| echo: true
@@ -93,7 +93,7 @@ min(x)
 max(x)
 ```
 
--   Quick way:
+- Quick way:
 
 ```{r}
 #| echo: true
@@ -103,9 +103,9 @@ skim(x)
 
 ## Type 2: `character`
 
--   For text data
+- For text data
 
--   Can't use with math calculation, for example, below code will raise error:
+- Can't use with math calculation, for example, below code will raise error:
 
 ```{r}
 #| echo: true
@@ -113,14 +113,14 @@ skim(x)
 "60" + "8"
 ```
 
--   Create text vector
+- Create text vector
 
 ```{r}
 #| echo: true
 s = c("ann", "betty", "candy")
 ```
 
--   Some text manipulation with `stringr` package:
+- Some text manipulation with `stringr` package:
 
 ```{r}
 #| echo: true
@@ -133,9 +133,9 @@ paste0("student_", s)
 
 ## Type 3: `factor`
 
--   Some category only, not continuous numeric variable
+- Some category only, not continuous numeric variable
 
--   For example:
+- For example:
 
 ```{r}
 #| echo: true
@@ -143,11 +143,11 @@ f1 = c(0, 1, 1, 0 ,1)
 f2 = c("Monday", "Tuesday", "Wednesday", "Tuesday", "Friday")
 ```
 
--   Sometimes, we need `factor` to do some special manipulation, e.g., plotting data by groups
+- Sometimes, we need `factor` to do some special manipulation, e.g., plotting data by groups
 
 ## Type 4: `date`
 
--   Make date:
+- Make date:
 
 ```{r}
 #| echo: true
@@ -155,7 +155,7 @@ d = c(20211231, 20221231, 20231231)
 typeof(d)
 ```
 
--   Convert `numeric` in yyyymmdd format to `date`:
+- Convert `numeric` in yyyymmdd format to `date`:
 
 ```{r}
 #| echo: true
@@ -165,25 +165,25 @@ typeof(d)
 
 ## Missing data: `NA`
 
--   Sometimes, we do not have data for some cases in the data
+- Sometimes, we do not have data for some cases in the data
 
--   In data science, people call it missing data
+- In data science, people call it missing data
 
--   In R, it is denoted as `NA` (pronounced as "Non-Applicable")
+- In R, it is denoted as `NA` (pronounced as "Non-Applicable")
 
 ## Vector vs dataframe
 
--   Vector: One column of data
+- Vector: One column of data
 
-    -   E.g., `x = c(5,7,9)` is a vector with three elements, where the first element can be index/choose by `x[1]`
+  - E.g., `x = c(5,7,9)` is a vector with three elements, where the first element can be index/choose by `x[1]`
 
--   Dataframe: Many columns put together in the same table
+- Dataframe: Many columns put together in the same table
 
-    -   A dataframe has rows/observations and columns/variables, such as `Data[rows, columns]`
+  - A dataframe has rows/observations and columns/variables, such as `Data[rows, columns]`
 
-    -   To select first 5 rows rows: `Data[1:5,]`
+  - To select first 5 rows rows: `Data[1:5,]`
 
-    -   To select column 2 and 3: `Data[,c(2,3)]`
+  - To select column 2 and 3: `Data[,c(2,3)]`
 
 ## Example
 
@@ -196,45 +196,45 @@ mtcars[1,]
 
 ## Import data
 
--   Raw data can be in many formats: the most common are
+- Raw data can be in many formats: the most common are
 
-    -   CSV or Excel
+  - CSV or Excel
 
-    -   Other statistical software: Stata, SAS, SPSS, `parquet`
+  - Other statistical software: Stata, SAS, SPSS, `parquet`
 
-    -   R native data: `rds`, `RData`
+  - R native data: `rds`, `RData`
 
-    -   (SQL) Database
+  - (SQL) Database
 
--   We will learn first with simple CSV/Excel file. Then, I will introduce when and how to get data from SQL Database
+- We will learn first with simple CSV/Excel file. Then, I will introduce when and how to get data from SQL Database
 
 ## Import data to be dataframe in R
 
--   Use interactive import panel
+- Use interactive import panel
 
--   Use functions
+- Use functions
 
-    -   Depending on data, we have corresponding functions
+  - Depending on data, we have corresponding functions
 
-    -   For example, `read_csv` to read CSV files to R, `read_excel` to read Excel files (we may need to load libraries to use these functions)
+  - For example, `read_csv` to read CSV files to R, `read_excel` to read Excel files (we may need to load libraries to use these functions)
 
 ## Example
 
--   Read the file `hsb.csv` to R by two ways
+- Read the file `hsb.csv` to R by two ways
 
 ## Save dataframe from R to a file
 
--   Save output dataframe from R to a file to use later
--   Many possible file types: CSV, `rds`, `parquet`
-    -   E.g., `saveRDS(OUTPUT, "path_to_file.rds")`, `readr::write_csv(OUTPUT, "path_to_file.csv")`
+- Save output dataframe from R to a file to use later
+- Many possible file types: CSV, `rds`, `parquet`
+  - E.g., `saveRDS(OUTPUT, "path_to_file.rds")`, `readr::write_csv(OUTPUT, "path_to_file.csv")`
 
 ## Some tasks with the dataframe
 
--   Make data smaller
+- Make data smaller
 
--   Make data larger
+- Make data larger
 
--   Don't change the data size
+- Don't change the data size
 
 ## Make data smaller
 
@@ -247,7 +247,7 @@ mtcars[1,]
 ## Make data larger
 
 | Function | When to use |
-|------------------------------------|------------------------------------|
+|----|----|
 | `mutate` | Create new variables |
 | `transmute` | Also create new variables, but keep only these new variables and drop all old variables |
 
@@ -260,11 +260,11 @@ mtcars[1,]
 
 ## How to use a function?
 
--   Google
+- Google
 
-    -   ChatGPT
+  - ChatGPT
 
--   Use `?` before the function name:
+- Use `?` before the function name:
 
 ```{r}
 #| echo: true
@@ -272,7 +272,7 @@ mtcars[1,]
 ?mutate
 ```
 
--   Practice makes perfect
+- Practice makes perfect
 
 ## Thank you
 

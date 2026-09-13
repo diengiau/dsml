@@ -9,40 +9,39 @@ editor: visual
 
 ## ME
 
--   **Richard**, Dien Giau Bui (he/him)
+- **Richard**, Dien Giau Bui (he/him)
 
--   Email: [diengiau\@nccu.edu.tw](diengiau@nccu.edu.tw)
+- Email: [diengiau\@nccu.edu.tw](diengiau@nccu.edu.tw)
 
--   Officer hour: Wednesday afternoon 14:00-16:00, R, but please email me to book in advance
+- Officer hour: Wednesday afternoon 14:00-16:00, R, but please email me to book in advance
 
--   My website: [official](https://ib.nccu.edu.tw/en/Members/Dien-Giau-Richard-Bui-44674554) and [personal](https://diengiau.github.io)
+- My website: [official](https://ib.nccu.edu.tw/en/Members/Dien-Giau-Richard-Bui-44674554) and [personal](https://diengiau.github.io)
 
 ## The course
 
--   Mainly for business students
+- Mainly for business students
 
--   Basic, but with practical applications
+- Basic, but with practical applications
 
--   R programming language
+- R programming language
 
 ## Materials
 
--   No official textbook, but the lectures combine three main materials:
+- No official textbook, but the lectures combine three main materials:
 
-    -   Turrell, Arthur. Coding for Economists (selected practical chapters) **\[C4E\]**
+  - Turrell, Arthur. Coding for Economists (selected practical chapters) **\[C4E\]**
 
-    -   James, Gareth, Daniela Witten, Trevor Hastie, and Robert Tibshirani, eds. 2013. An introduction to statistical learning: with applications in R. New York: Springer. **\[ISLR\]**
+  - James, Gareth, Daniela Witten, Trevor Hastie, and Robert Tibshirani, eds. 2013. An introduction to statistical learning: with applications in R. New York: Springer. **\[ISLR\]**
 
-    -   [Data science for economists](https://github.com/uo-ec607/lectures) class
+  - [Data science for economists](https://github.com/uo-ec607/lectures) class
 
--   My lecture slides + codes + data
+- My lecture slides + codes + data
 
-    -   I will put everything into a public github: <https://github.com/diengiau/dsml>
+  - I will put everything into a public github: <https://github.com/diengiau/dsml>
 
--   But if you're new to R, please read this book for your references:
+- But if you're new to R, please read this book for your references:
 
-    -   R4DS: <http://r4ds.had.co.nz>
-
+  - R4DS: <http://r4ds.had.co.nz>
 
 ## Teaching approach
 
@@ -75,84 +74,79 @@ editor: visual
 
 - I often recommend to use [Kaggle](https://www.kaggle.com/)
 
-
-
 ## Schedule this semester
 
 - Midterm: on Week 8
 - Final presentation: last two weeks
-- We will have one missing/make up class: 
-    - No class on week of Dec 7-8 (I'll go to a conference)
-    - Make up class: we will decide near that week
+- We will have one missing/make up class:
+  - No class on week of Dec 7-8 (I'll go to a conference)
+  - Make up class: we will decide near that week
 
 ## AI policy in the class
 
--   There are some AI tools to use with RStudio
--   Do you want to use ChatGPT in this class?
--   If yes, ...
-
+- There are some AI tools to use with RStudio
+- Do you want to use ChatGPT in this class?
+- If yes, ...
 
 ## My expectation/rule
 
--   Please don't ask for extra points at the semester end.
+- Please don't ask for extra points at the semester end.
 
--   It is difficult but useful and can pass-able if you tried hard in class
+- It is difficult but useful and can pass-able if you tried hard in class
 
--   Please email me before visiting office hour. I will confirm in advance.
-
+- Please email me before visiting office hour. I will confirm in advance.
 
 ## Required software
 
--   R programming
+- R programming
 
-    -   is one statistical programming language
-    -   very popular in statistics, science, and ML projects
+  - is one statistical programming language
+  - very popular in statistics, science, and ML projects
 
--   RStudio: and IDE for easier using R
+- RStudio: and IDE for easier using R
 
--   Tough at start
+- Tough at start
 
--   ... but maybe help you in the future
+- ... but maybe help you in the future
 
 ## Why R?
 
--   Easy/intuitive programming
+- Easy/intuitive programming
 
--   Free (open-source) and flexible to small-big projects
+- Free (open-source) and flexible to small-big projects
 
--   Active and broad user community
+- Active and broad user community
 
-    -   E.g., iOS community vs Blackberry community
+  - E.g., iOS community vs Blackberry community
 
 ## To install R
 
--   First, install R from R-CRAN
+- First, install R from R-CRAN
 
-    -   Step 1: download R install file; Step 2-n: Yes, Yes, Yes
+  - Step 1: download R install file; Step 2-n: Yes, Yes, Yes
 
--   Second, install RStudio Desktop (free version)
+- Second, install RStudio Desktop (free version)
 
--   Third, install R packages
+- Third, install R packages
 
-    -   For data manipulation: `install.packages("tidyverse")`; for Mac user, `install.packages("dplyr")` is enough
-    -   For string and date: `stringr`, `lubridate`
-    -   For statistics: `janitor`, `skimr`, `broom`, `purrr`
+  - For data manipulation: `install.packages("tidyverse")`; for Mac user, `install.packages("dplyr")` is enough
+  - For string and date: `stringr`, `lubridate`
+  - For statistics: `janitor`, `skimr`, `broom`, `purrr`
 
--   Fourth, when use the packages: `library(tidyverse)`
+- Fourth, when use the packages: `library(tidyverse)`
 
 ## Lab vs your personal computer
 
--   IT staffs installed R and RStudio for you
+- IT staffs installed R and RStudio for you
 
--   But more convenient to have it installed on your own computer
+- But more convenient to have it installed on your own computer
 
--   Ask me or the TA any time you have questions in class
+- Ask me or the TA any time you have questions in class
 
 ## Another online solution
 
 - Use Google's [Colab](https://colab.research.google.com/) platform
-    - Link to your Google account
-
+  - Link to your Google account
 
 ## RStudio interface
 
@@ -160,36 +154,33 @@ editor: visual
 
 ## Some useful short-cut
 
--   **TAB**: for complete codes automatically
--   **CTRL+ENTER**: for possible options in the codes
--   **CTRL+SHIFT+M**: for the pipe `%>%` special letter
--   **CTRL+ALT+I**: for insert a new R code block into the **QMD**/RMD file
+- **TAB**: for complete codes automatically
+- **CTRL+ENTER**: for possible options in the codes
+- **CTRL+SHIFT+M**: for the pipe `%>%` special letter
+- **CTRL+ALT+I**: for insert a new R code block into the **QMD**/RMD file
 
 ## QMD file
 
--   It is a special file format by RStudio, allowing you to write and code at the same time, using the `markdown` format
--   E.g., this file is a **QMD** file
--   There are two main contents in QMD file:
-    -   Text: anything you type, for reasoning, discussion so that readers can understand the analysis
-    -   Code: anything inside an R code block, by **CTRL+ALT+I** shortcut or click the green C+ button in RStudio
--   It can **render** to many other file formats (**docx**, **PDF**, **HTML**, **revealjs**, ...) by click to **Render** button
-
-
+- It is a special file format by RStudio, allowing you to write and code at the same time, using the `markdown` format
+- E.g., this file is a **QMD** file
+- There are two main contents in QMD file:
+  - Text: anything you type, for reasoning, discussion so that readers can understand the analysis
+  - Code: anything inside an R code block, by **CTRL+ALT+I** shortcut or click the green C+ button in RStudio
+- It can **render** to many other file formats (**docx**, **PDF**, **HTML**, **revealjs**, ...) by click to **Render** button
 
 ## A kick-off question
 
--   Why coding for biz students?
-
+- Why coding for biz students?
 
 ## Why coding for biz students?
 
--   Data is now the primary input for business decisions:
+- Data is now the primary input for business decisions:
 
--   Higher expectation on data literacy from employers
+- Higher expectation on data literacy from employers
 
--   It is a competitive differentiator between two otherwise similar candidates in hiring and promotion
+- It is a competitive differentiator between two otherwise similar candidates in hiring and promotion
 
--   It sharpens judgement and critical thinking
+- It sharpens judgement and critical thinking
 
 ## A quote
 
@@ -197,11 +188,11 @@ editor: visual
 
 ## Job posting examples
 
--   I do search in September 2026
+- I do search in September 2026
 
--   **linkedin**
+- **linkedin**
 
--   keywords: "marketing manager" + "SQL"
+- keywords: "marketing manager" + "SQL"
 
 ## Example of job posting: Coupang, Taipei
 
@@ -221,23 +212,21 @@ editor: visual
 
 ## Data literacy = new (English) language skill?
 
--   Yes
+- Yes
 
-    -   Confirmed by hiring posts
+  - Confirmed by hiring posts
 
-    -   Teamwork with other tech teams
+  - Teamwork with other tech teams
 
-    -   Increasing rate of returns (income - cost)
+  - Increasing rate of returns (income - cost)
 
--   Data literacy has many levels
+- Data literacy has many levels
 
-    -   Basic/baseline: reading/making dashboards, basic SQL/Excel/R/Python, interpreting the model (regression/classification) outputs
+  - Basic/baseline: reading/making dashboards, basic SQL/Excel/R/Python, interpreting the model (regression/classification) outputs
 
-    -   Data science/ML expertise
+  - Data science/ML expertise
 
--   Combining your field expertise + data science skill to make you different
-
-
+- Combining your field expertise + data science skill to make you different
 
 ## Code is cool
 
@@ -245,4 +234,4 @@ editor: visual
 
 ## Thank you
 
--   Are you ready?
+- Are you ready?
