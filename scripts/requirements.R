@@ -26,3 +26,4 @@ install.packages("rmarkdown")
 # data for regressions
 install.packages("ISLR2")
 install.packages("boot")
+install.packages("MASS")
