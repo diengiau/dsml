@@ -1,0 +1,206 @@
+---
+title: 'Test 02: Numeric Y vs Numeric X'
+author: "Richard"
+date: "2024"
+format: revealjs
+editor: visual
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load required packages
+
+```{r}
+#| echo: true
+#| warning: false
+
+library(tidyverse) # if you're using macOS, you can run: library(dplyr)
+library(skimr)
+library(ggplot2)
+```
+
+## Prepare Data
+
+Please read the intro about data at [here](https://www.openintro.org/data/index.php?data=hsb2)
+
+```{r}
+#| echo: true
+#| warning: false
+Coffee <- readRDS("data/process/school_cafe_orders_clean.rds")
+
+Coffee = Coffee %>% 
+  mutate(
+    size = as.factor(size),
+    milk_type = as.factor(milk_type)
+  )
+```
+
+## Numeric variables
+
+-   In general, we deal with numeric variables all the time
+    -   e.g., temperature, rain volume, salary, ...
+-   It is rich value and contains more information than categorical variables
+-   Sometimes, we want to find the **relation** between two numeric variables e.g., "temperature and our electricity bills", "how far you live to the downtown and your income", ...
+-   A **relation** does not mean a **causality**
+
+## Relation/Correlation vs Causality
+
+-   Relation/correlation shows that if X increases, Y will increase or decrease, depending on the relation is positive or negative correlated
+-   Causality means that because of X, so we have Y
+    -   we know which variable happens first, then we have the outcome
+-   For example, return to our proposed relation: *"how far you live to the downtown and your income"*
+    -   it is difficult to know which variable causes which variable
+    -   e.g., maybe you're rich so you live in downtown; or because you're living in downtown so you find a better job; or because you was born in a high-class family so you are not only live in downtown but also have a good-paid job
+-   In this class, we focus on correlation, not causality, which requires a more sophisticated class in the future (Econometrics class)
+
+## Research question
+
+-   If `calories` and `price` scores are correlated?
+
+## Scatter plot
+
+```{r}
+#| echo: true
+plot(x = Coffee$calories, y = Coffee$price)
+```
+
+## More beautiful plot: using `ggplot`
+
+```{r}
+ggplot(Coffee, aes(x=calories, y=price)) + geom_point()
+```
+
+## Add labels
+
+```{r}
+#| echo: true
+ggplot(Coffee, aes(x=calories, y=price)) + geom_point() +
+  xlab("Calories") + ylab("Price") +
+  labs(title = "Relation between calories and drink price")
+```
+
+## Change the theme of the plot
+
+```{r}
+#| echo: true
+ggplot(Coffee, aes(x=calories, y=price)) + geom_point() +
+  xlab("Calories") + ylab("Price") +
+  labs(title = "Relation between calories and drink price") +
+  theme_minimal()
+```
+
+## To save the plot to file
+
+```{r}
+#| echo: true
+#| eval: false
+ggsave("path_to_file.png") # I WILL NOT RUN, WILL DEMO IN CLASS LATER
+```
+
+## Correlation
+
+```{r}
+#| echo: true
+cor(Coffee$calories, Coffee$price)
+```
+
+Test significance of the correlation:
+
+```{r}
+cor.test(Coffee$calories, Coffee$price)
+```
+
+## Regression
+
+-   In addition to correlation, we can run a regression between `X` and `Y`
+-   What is regression?
+    -   We use OLS to draw a line that show the relation between X and Y
+    -   There are so many possible lines that can draw thru the scatter plot
+    -   OLS method chooses the line that minimize the squared errors (a bit technical here, let me explain more!)
+
+## Fit regression
+
+```{r}
+#| echo: true
+model1 = lm(formula = price ~ calories, data = Coffee)
+summary(model1)
+```
+
+## Discussion
+
+-   It has 3 stars!
+    -   More stars indicate more significant --\> good news, we discover something!
+-   How to understand this `0.0008` coefficient?
+    -   When `calories` score increase 1 point, what will happen to `price`?
+-   What is `Intercept` coefficient?
+
+## Extension 1: More independent variables
+
+-   More variables in the right-hand side:
+    -   Why we put more variables to the regression?
+    -   E.g., Does gender affect the write score? Why we don't put it to consideration?
+
+## R code example
+
+```{r}
+#| echo: true
+model2 = lm(formula = price ~ calories + sugar_percent + milk + whip, data = Coffee)
+summary(model2)
+```
+
+## Discuss
+
+-   `calories` coefficient changed!
+    -   larger or smaller?
+    -   why?
+-   Similarly, we can control as nearly all variables we think/find it important
+-   Which variables we need to control?
+    -   Ask an expert
+    -   Read the literature
+
+## Extension 2: transformed variables in regression
+
+-   Sometimes, we want to transform variables before putting them to the regression
+-   For example, we may want to take log of variables before regressions
+
+```{r}
+#| echo: true
+# transform
+Coffee = Coffee %>% 
+  mutate(
+    log_price = log(price),
+    log_calories = log(calories)
+  )
+
+# fit
+model3a = lm(formula = log_price ~ log_calories, data = Coffee)
+summary(model3a)
+```
+
+## A quicker method: using `I()`
+
+```{r}
+#| echo: true
+model3b = lm(formula = I(log(price)) ~ I(log(calories)), data = Coffee)
+summary(model3b)
+```
+
+
+## Extension 3: Interaction between X variables
+
+-   For example: we want to regress `write` on `read`, `female`, and the interaction between these two
+-   We can do manually, or using the below code:
+
+```{r}
+#| echo: true
+model4 = lm(formula = price ~ calories*sugar_percent, data = Coffee)
+summary(model4)
+```
+
+## Last words for this lecture
+
+-   Oops, you may be too tired at this step
+-   But not yet finished, we need to learn more about assumption diagnostics
+-   We also learn how to `tidy` the regression results in the next lecture
