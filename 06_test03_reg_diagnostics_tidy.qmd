@@ -1,0 +1,195 @@
+---
+title: "Test 03 - Regression diagnostics and tidy regression results"
+author: "Richard"
+date: "2024"
+format: revealjs
+editor: visual
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load required packages
+
+```{r}
+#| echo: true
+#| warning: false
+library(tidyverse) 
+# if you're using macOS, you can run: library(dplyr)
+library(skimr)
+library(broom)
+library(modelr)
+```
+
+## Prepare Data
+
+```{r}
+#| echo: true
+#| warning: false
+Coffee <- readRDS("data/process/school_cafe_orders_clean.rds")
+
+Coffee = Coffee %>% 
+  mutate(
+    size = as.factor(size),
+    milk_type = as.factor(milk_type)
+  )
+```
+
+## A regression
+
+We run a regerssion between `price` score on `calories`, `sugar_percent`, `milk`, and `whip`:
+
+```{r}
+#| echo: true
+model2 = lm(formula = price ~ calories + sugar_percent + milk + whip, data = Coffee)
+summary(model2)
+```
+
+## Tidy the coefficients
+
+-   The about regressions results are in text format, which is time-consuming to copy to a report
+-   How about we transform it into a dataframe to easy to manipulate later: use function `tidy` from `broom` package
+-   For example, if we want to get the coefficient of `calories`, we can easy `filter` and `select` to get the coefficient, rather than copy-and-paste:
+
+```{r}
+#| echo: true
+tidy(model2)
+```
+
+## Get predictions and residuals
+
+-   Recall that in a regression
+
+$$Y = a + bX + e$$
+
+-   So the prediction is:
+
+$$\hat{Y} = \hat{a} + \hat{b}X$$
+
+-   and residuals:
+
+$$\hat{e} = Y - \hat{Y}$$
+
+-   We have several ways to get the predictions and residuals
+
+## 1st way: manual calculation
+
+First, the fitted Y is the product of estimated coefficients and the corresponding X.
+
+```{r}
+#| echo: true
+Coffee = Coffee %>% 
+  mutate(
+    fitted1 = 4.4036254 + 0.0014486*calories + 0.0006913*sugar_percent + -0.0426928*milk + -0.2279990*whip
+  )
+
+```
+
+The residuals is the difference between Y and fitted Y:
+
+```{r}
+Coffee = Coffee %>% 
+  mutate(resid1 = price - fitted1)
+```
+
+## 2nd way: use `tidy::augment`
+
+This function added several new columns, including the fitted and residuals to the original data. Compare the results to the manual calculation above.
+
+```{r}
+#| echo: true
+Coffee = augment(model2, Coffee) 
+Coffee %>% 
+  select(fitted1, resid1, .fitted, .resid) %>% 
+  head()
+```
+
+## Extension: Training vs Test sample
+
+-   We often split our data into training vs test sample:
+
+    -   Training sample: to train historical data
+
+    -   Test sample: new data to make prediction
+
+-   e.g., Netflix uses our historical watched movies to recommend our next movies to watch
+
+## Re-train our case
+
+```{r}
+# train: use the first 800 obs
+model2b = lm(formula = price ~ calories + sugar_percent + milk + whip, data = Coffee[1:800,])
+# test: use the last 140 obs 
+augment(model2b, newdata = Coffee[801:940,])
+```
+
+## Regression diagnostics
+
+-   The OLS regressions have several important assumptions, which we assume the data must be, to make sure the estimation is correct.
+
+-   Thus, after running regression, we often need to check these assumptions again to make sure
+
+-   This process is called as "regression diagnostics"
+
+-   I borrow a lot from [this slide note from UCLA](https://stats.idre.ucla.edu/wp-content/uploads/2019/02/R_reg_part2.html)
+
+## Assumption 1: Homogeneity of variance (homoscedasticity)
+
+-   It assumes that the variance of residuals is constant
+
+-   If the model is well-fitted, there should be no pattern to the residuals plotted against the fitted values.
+
+-   Let's plot to see:
+
+## Plot of residuals
+
+```{r}
+#| echo: true
+plot(Coffee$.resid ~ Coffee$.fitted)
+abline(h = 0, lty = 2)
+```
+
+## Assumption 2: Normality of residuals
+
+-   It assumes that the residuals follow a normal distribution
+
+-   Thus, we need to test normality for the residuals
+
+## Q-Q plot
+
+```{r}
+#| echo: true
+qqnorm(Coffee$.resid)
+qqline(Coffee$.resid)
+```
+
+## Normality test for residuals
+
+Do you remember we have a test for normality?
+
+## Assumption 3: Check for multicolinearity
+
+-   The term collinearity implies that two variables are near perfect linear combinations of one another.
+
+-   VIF, variance inflation factor, is used to measure the degree of multicollinearity.
+
+-   Rule-of-thump: VIF \>= 10 means that the variable could be considered as a linear combination of other independent variables.
+
+## Multicolinearity check in R
+
+-   Install `car` package if not yet
+
+```{r}
+#| echo: true
+# install.packages("car")
+car::vif(model2)
+
+```
+
+-   All coefficients have low VIF
+    -   Less concern on multicolinearity problem
+
+## Summary
+
+What statistical tests did we learn?
