@@ -23,12 +23,12 @@ library(skimr)
 
 ## One variable of interest
 
--   Sometimes, we often analyze/care about only one variable: salary, gender, interest, returns, score, pass/fail an exam, ...
--   We can classify these measures into two groups:
-    -   Numeric variables: which ones above are numeric?
-    -   Categorical variables: which ones?
--   Thanks to their data structure, we need different statistical tests applied to them when we ask questions about them
--   Let check one example with a categorical variable: gender
+- Sometimes, we often analyze/care about only one variable: salary, gender, interest, returns, score, pass/fail an exam, ...
+- We can classify these measures into two groups:
+  - Numeric variables: which ones above are numeric?
+  - Categorical variables: which ones?
+- Thanks to their data structure, we need different statistical tests applied to them when we ask questions about them
+- Let check one example with a categorical variable: gender
 
 ## Prepare Data
 
@@ -38,7 +38,6 @@ Please read the intro about data at [here](https://www.openintro.org/data/index.
 #| echo: true
 Coffee <- readRDS("data/process/school_cafe_orders_clean.rds")
 ```
-
 
 ## Summarize data
 
@@ -60,28 +59,27 @@ Coffee = Coffee %>%
   )
 ```
 
-
 ## One numeric variable
 
--   For a numeric variable, we often want to know the mean (centralized tendency) and the variance/standard deviation of this variable:
-    -   e.g.1., what is the average price for any drink in the coffee store
-    -   e.g.2., what is the average calories per drink
+- For a numeric variable, we often want to know the mean (centralized tendency) and the variance/standard deviation of this variable:
+  - e.g.1., what is the average price for any drink in the coffee store
+  - e.g.2., what is the average calories per drink
 
 ## Questions
 
--   What is average `price` in our `Coffee` data
--   Is it equal to $5, or different
+- What is average `price` in our `Coffee` data
+- Is it equal to \$5, or different
 
 ## 1. One numeric: one-sample t test
 
--   Hypothesis: Does the price is equal to 5?
--   Null hypothesis H0: The price is 5.
--   Alternative hypothesis H1: The price is different from 5.
+- Hypothesis: Does the price is equal to 5?
+- Null hypothesis H0: The price is 5.
+- Alternative hypothesis H1: The price is different from 5.
 
 ## R function
 
--   Function: `t.test`
--   Usage: `t.test(NUMERIC_VARIABLE, mu = CONSTANT)`
+- Function: `t.test`
+- Usage: `t.test(NUMERIC_VARIABLE, mu = CONSTANT)`
 
 ## R code example
 
@@ -92,12 +90,12 @@ t.test(Coffee$price, mu = 5)
 
 ## Discussion
 
--   How to read the results?
--   Let apply `t.test` more
+- How to read the results?
+- Let apply `t.test` more
 
 ## Another important stat to measure central tendency: median
 
--   Let do the same test, but ask if the median is equal to 50 or not
+- Let do the same test, but ask if the median is equal to 50 or not
 
 ```{r}
 #| echo: true
@@ -116,17 +114,16 @@ Coffee %>%
   summarize(average_calories = mean(calories), .by=c(milk_type))
 ```
 
-
 ## Two-sample t test
 
--   Hypothesis: Does the average calories is equal between "nonfat" and "whole" milk type groups?
--   Null hypothesis H0: The average calories of nonfat milk type **is equal to** those of whole milk type.
--   Alternative hypothesis H1: The average calories of nonfat milk type **is diffrent from** those of whole milk type.
+- Hypothesis: Does the average calories is equal between "nonfat" and "whole" milk type groups?
+- Null hypothesis H0: The average calories of nonfat milk type **is equal to** those of whole milk type.
+- Alternative hypothesis H1: The average calories of nonfat milk type **is diffrent from** those of whole milk type.
 
 ## R function
 
--   Function: `t.test`
--   Usage: `t.test(NUM_VAR ~ CAT_VAR, data = DATA)`
+- Function: `t.test`
+- Usage: `t.test(NUM_VAR ~ CAT_VAR, data = DATA)`
 
 ## R code example
 
@@ -139,16 +136,15 @@ t.test(calories ~ milk_type,
 ## Discussion
 
 - How to read results?
-    - Which drink I should order for my diet?
+  - Which drink I should order for my diet?
 - More practice
 
 ## Summary
--   This lecture introduces to you three important tests:
-    -   one-sample `t.test`
-    -   one-sample median test `wilcox.test`
-    -   two-sample `t.test`
--   In next lecture, we will consider two variables at the same time:
-    -   One is our variable of interest such as `price` count
-    -   Another variable is another factor/determinant/independent var/predictor: such as `calories` or drink `size`
 
-
+- This lecture introduces to you three important tests:
+  - one-sample `t.test`
+  - one-sample median test `wilcox.test`
+  - two-sample `t.test`
+- In next lecture, we will consider two variables at the same time:
+  - One is our variable of interest such as `price` count
+  - Another variable is another factor/determinant/independent var/predictor: such as `calories` or drink `size`
