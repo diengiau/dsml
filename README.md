@@ -33,6 +33,7 @@ Please read the full description at [Syllabus website](https://newdoc.nccu.edu.t
 4.  Practice clean data frame
 5.  Visualization
     -   Data Visualization with ggplot2: [html](https://raw.githack.com/diengiau/dsml/main/outputs/data-viz.html)
+    -   Dashboard by quarto: [md](07_dashboard.qmd)
     -   Dashboard example: [md](dashboard-example.qmd), [html](https://raw.githack.com/diengiau/dsml/main/outputs/dashboard-example.html)
 6.  Statistical tests
 7.  Git
