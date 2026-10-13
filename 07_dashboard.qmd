@@ -44,6 +44,20 @@ library(skimr)
 
 Sometimes, we can build a dynamic dashboard: [Link](https://inequality-final.streamlit.app/)
 
+## Storytelling plot
+
+There are some good examples that a plot can tell a good story than many pages of words.
+
+One recent example I found is from the Economist magazine.
+
+## First, AI usage and homework score
+
+![](images/clipboard-2064284737.png)
+
+## Next, AI usage and exam scores
+
+![](images/clipboard-1762844787.png)
+
 ## Layout of a dashboard
 
 - Column vs rows
