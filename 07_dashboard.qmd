@@ -123,6 +123,6 @@ format:
 
 - Let me show my dashboard first
 
-  - Each figure needs to be beautiful first
+  - In file `dashboard-example.qmd`
 
 - OK, let's work to make it and show me the results
