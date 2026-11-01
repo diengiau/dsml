@@ -23,10 +23,10 @@ library(skimr)
 
 ## Dashboard
 
-- A combination of some plots to show a story
+- A combination of some data, analysis, or plots to show a story
   - Real-time
   - Insights
-- Dashboard vs a plot
+- Dashboard vs. a plot
 
 ## Example 1: Finance Management dashboard
 
@@ -99,13 +99,6 @@ format: dashboard
 
 ```
 
-## Practice
-
-- Imagine that we have three plots: f1, f2, f3
-
-- We made it in data visualization lecture
-
-- Let's discuss with your friends how to put them to a dashboard
 
 ## Design a layout
 
@@ -133,10 +126,19 @@ format:
     theme: united
 ```
 
-## Complete it
+## Example
 
 - Let me show my dashboard first
 
   - In file `dashboard-example.qmd`
 
 - OK, let's work to make it and show me the results
+
+## Practice
+
+- Imagine that we have three plots: f1, f2, f3
+
+- We made it in data visualization lecture
+
+- Let's discuss with your friends how to put them to a dashboard
+
