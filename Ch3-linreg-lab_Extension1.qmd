@@ -2,10 +2,11 @@
 ```{r}
 library(ISLR2)
 library(broom)
-
 ```
 
-Instead of using `summary(lm.fit)$sigma` to get RSE after a regression, we can manually calculate RSE of a regression as follows. I use the formula from this note: [https://www.geeksforgeeks.org/machine-learning/what-is-residual-standard-error/](https://www.geeksforgeeks.org/machine-learning/what-is-residual-standard-error/)
+Instead of using `summary(lm.fit)$sigma` to get RSE after a regression, we can manually calculate RSE of a regression as follows. 
+
+I use the formula from page 12/48 or more general from this note: [https://www.geeksforgeeks.org/machine-learning/what-is-residual-standard-error/](https://www.geeksforgeeks.org/machine-learning/what-is-residual-standard-error/)
 
 The model is similar to the main lecture:
 ```{r}
