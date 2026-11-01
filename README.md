@@ -38,11 +38,11 @@ Please read the full description at [Syllabus website](https://newdoc.nccu.edu.t
 6.  Statistical tests
 7.  Git
 8.  Database: [md](database101.qmd)
-9.  Introduction to machine learning
-10. Regressions: [md](Ch3-linreg-lab.qmd)
+9.  Introduction to machine learning: [pdf](Ch2_Statistical_Learning.pdf)
+10. Regressions: [pdf](Ch3_Linear_Regression.pdf), [md](Ch3-linreg-lab.qmd)
     - Extension 1: calculate RSE manually [md](Ch3-linreg-lab_Extension1.qmd)
     - Extension 2: resampling [md](Ch5-resample-lab.qmd)
-11. Classification: [md](Ch4-classification-lab.qmd)
+11. Classification: [pdf](Ch4_Classification.pdf), [md](Ch4-classification-lab.qmd)
 12. Publish/deployment reports
 
 ## FAQ
