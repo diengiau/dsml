@@ -39,11 +39,11 @@ Please read the full description at [Syllabus website](https://newdoc.nccu.edu.t
 7.  Git
 8. Publish/deployment reports: [tutor link](https://app.notion.com/p/buidiengiau/How-to-publish-dashboard-to-Github-Page-40b4443c5a5a80da8d1fea41cead21f1?source=copy_link)
 9.  Database: [md](database101.qmd)
-10.  Introduction to machine learning: [pdf](Ch2_Statistical_Learning.pdf)
-11. Regressions: [pdf](Ch3_Linear_Regression.pdf), [md](Ch3-linreg-lab.qmd)
-    - Extension 1: calculate RSE manually [md](Ch3-linreg-lab_Extension1.qmd)
-    - Extension 2: resampling [md](Ch5-resample-lab.qmd)
-12. Classification: [pdf](Ch4_Classification.pdf), [md](Ch4-classification-lab.qmd)
+10.  Introduction to machine learning: [pdf](https://raw.githack.com/diengiau/dsml/main/Ch2_Statistical_Learning.pdf)
+11. Regressions: [pdf](https://raw.githack.com/diengiau/dsml/main/Ch3_Linear_Regression.pdf), [Lab md](Ch3-linreg-lab.qmd)
+    - Extension 1: calculate RSE manually [Lab md](Ch3-linreg-lab_Extension1.qmd)
+    - Extension 2: resampling [Lab md](Ch5-resample-lab.qmd)
+12. Classification: [pdf](https://raw.githack.com/diengiau/dsml/main/Ch4_Classification.pdf), [Lab md](Ch4-classification-lab.qmd)
 
 ## FAQ
 
