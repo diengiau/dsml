@@ -35,7 +35,7 @@ Please read the full description at [Syllabus website](https://newdoc.nccu.edu.t
     -   Data Visualization with ggplot2: [html](https://raw.githack.com/diengiau/dsml/main/outputs/data-viz.html)
     -   Dashboard by quarto: [md](07_dashboard.qmd)
     -   Dashboard example: [md](dashboard-example.qmd), [html](https://raw.githack.com/diengiau/dsml/main/outputs/dashboard-example.html)
-6.  Statistical tests
+6.  Statistical tests: we learnt 3 common tests for [one numeric var](04_test01_oneY.qmd), [two numeric variables](05_test02_numYnumX.qmd), and [how to check the regression assumption and results](06_test03_reg_diagnostics_tidy.qmd)
 7.  Git
 8. Publish/deployment reports: [tutor link](https://app.notion.com/p/buidiengiau/How-to-publish-dashboard-to-Github-Page-40b4443c5a5a80da8d1fea41cead21f1?source=copy_link)
 9.  Database: [md](database101.qmd)
